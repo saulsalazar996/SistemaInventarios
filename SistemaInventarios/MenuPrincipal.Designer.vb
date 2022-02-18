@@ -60,16 +60,19 @@ Partial Class MenuPrincipal
         Me.Panel1.Controls.Add(Me.LblUsuario)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(188, 517)
+        Me.Panel1.Size = New System.Drawing.Size(215, 689)
         Me.Panel1.TabIndex = 5
         '
         'BtnCerrar
         '
         Me.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.BtnCerrar.Location = New System.Drawing.Point(0, 494)
+        Me.BtnCerrar.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnCerrar.Location = New System.Drawing.Point(0, 658)
+        Me.BtnCerrar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(188, 23)
+        Me.BtnCerrar.Size = New System.Drawing.Size(215, 31)
         Me.BtnCerrar.TabIndex = 12
         Me.BtnCerrar.Text = "Cerrar Sesion"
         Me.BtnCerrar.UseVisualStyleBackColor = True
@@ -77,9 +80,11 @@ Partial Class MenuPrincipal
         'BtnAdministrador
         '
         Me.BtnAdministrador.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 304)
+        Me.BtnAdministrador.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 407)
+        Me.BtnAdministrador.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnAdministrador.Name = "BtnAdministrador"
-        Me.BtnAdministrador.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAdministrador.Size = New System.Drawing.Size(215, 31)
         Me.BtnAdministrador.TabIndex = 11
         Me.BtnAdministrador.Text = "AdmUsuarios"
         Me.BtnAdministrador.UseVisualStyleBackColor = True
@@ -87,9 +92,11 @@ Partial Class MenuPrincipal
         'BtnPassword
         '
         Me.BtnPassword.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPassword.Location = New System.Drawing.Point(0, 281)
+        Me.BtnPassword.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnPassword.Location = New System.Drawing.Point(0, 376)
+        Me.BtnPassword.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnPassword.Name = "BtnPassword"
-        Me.BtnPassword.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPassword.Size = New System.Drawing.Size(215, 31)
         Me.BtnPassword.TabIndex = 10
         Me.BtnPassword.Text = "Cambio Contraseña"
         Me.BtnPassword.UseVisualStyleBackColor = True
@@ -97,9 +104,11 @@ Partial Class MenuPrincipal
         'BtnMovimientos
         '
         Me.BtnMovimientos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 258)
+        Me.BtnMovimientos.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 345)
+        Me.BtnMovimientos.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnMovimientos.Name = "BtnMovimientos"
-        Me.BtnMovimientos.Size = New System.Drawing.Size(188, 23)
+        Me.BtnMovimientos.Size = New System.Drawing.Size(215, 31)
         Me.BtnMovimientos.TabIndex = 9
         Me.BtnMovimientos.Text = "Movimientos"
         Me.BtnMovimientos.UseVisualStyleBackColor = True
@@ -107,9 +116,11 @@ Partial Class MenuPrincipal
         'BtnReportes
         '
         Me.BtnReportes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnReportes.Location = New System.Drawing.Point(0, 235)
+        Me.BtnReportes.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnReportes.Location = New System.Drawing.Point(0, 314)
+        Me.BtnReportes.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnReportes.Name = "BtnReportes"
-        Me.BtnReportes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnReportes.Size = New System.Drawing.Size(215, 31)
         Me.BtnReportes.TabIndex = 8
         Me.BtnReportes.Text = "Visor Reportes"
         Me.BtnReportes.UseVisualStyleBackColor = True
@@ -117,9 +128,11 @@ Partial Class MenuPrincipal
         'BtnSalidas
         '
         Me.BtnSalidas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSalidas.Location = New System.Drawing.Point(0, 212)
+        Me.BtnSalidas.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnSalidas.Location = New System.Drawing.Point(0, 283)
+        Me.BtnSalidas.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnSalidas.Name = "BtnSalidas"
-        Me.BtnSalidas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnSalidas.Size = New System.Drawing.Size(215, 31)
         Me.BtnSalidas.TabIndex = 7
         Me.BtnSalidas.Text = "Salidas"
         Me.BtnSalidas.UseVisualStyleBackColor = True
@@ -127,9 +140,11 @@ Partial Class MenuPrincipal
         'BtnEntradas
         '
         Me.BtnEntradas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnEntradas.Location = New System.Drawing.Point(0, 189)
+        Me.BtnEntradas.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnEntradas.Location = New System.Drawing.Point(0, 252)
+        Me.BtnEntradas.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnEntradas.Name = "BtnEntradas"
-        Me.BtnEntradas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnEntradas.Size = New System.Drawing.Size(215, 31)
         Me.BtnEntradas.TabIndex = 6
         Me.BtnEntradas.Text = "Entradas"
         Me.BtnEntradas.UseVisualStyleBackColor = True
@@ -137,9 +152,11 @@ Partial Class MenuPrincipal
         'BtnPartes
         '
         Me.BtnPartes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPartes.Location = New System.Drawing.Point(0, 166)
+        Me.BtnPartes.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnPartes.Location = New System.Drawing.Point(0, 221)
+        Me.BtnPartes.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnPartes.Name = "BtnPartes"
-        Me.BtnPartes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPartes.Size = New System.Drawing.Size(215, 31)
         Me.BtnPartes.TabIndex = 5
         Me.BtnPartes.Text = "Partes"
         Me.BtnPartes.UseVisualStyleBackColor = True
@@ -147,9 +164,11 @@ Partial Class MenuPrincipal
         'BtnAlmacenes
         '
         Me.BtnAlmacenes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAlmacenes.Location = New System.Drawing.Point(0, 143)
+        Me.BtnAlmacenes.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnAlmacenes.Location = New System.Drawing.Point(0, 190)
+        Me.BtnAlmacenes.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnAlmacenes.Name = "BtnAlmacenes"
-        Me.BtnAlmacenes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAlmacenes.Size = New System.Drawing.Size(215, 31)
         Me.BtnAlmacenes.TabIndex = 4
         Me.BtnAlmacenes.Text = "Almacenes"
         Me.BtnAlmacenes.UseVisualStyleBackColor = True
@@ -157,9 +176,11 @@ Partial Class MenuPrincipal
         'BtnRegistro
         '
         Me.BtnRegistro.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnRegistro.Location = New System.Drawing.Point(0, 120)
+        Me.BtnRegistro.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnRegistro.Location = New System.Drawing.Point(0, 159)
+        Me.BtnRegistro.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnRegistro.Name = "BtnRegistro"
-        Me.BtnRegistro.Size = New System.Drawing.Size(188, 23)
+        Me.BtnRegistro.Size = New System.Drawing.Size(215, 31)
         Me.BtnRegistro.TabIndex = 3
         Me.BtnRegistro.Text = "Registro"
         Me.BtnRegistro.UseVisualStyleBackColor = True
@@ -167,37 +188,41 @@ Partial Class MenuPrincipal
         'LblAlmacen
         '
         Me.LblAlmacen.Dock = System.Windows.Forms.DockStyle.Top
-        Me.LblAlmacen.Location = New System.Drawing.Point(0, 80)
+        Me.LblAlmacen.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblAlmacen.Location = New System.Drawing.Point(0, 106)
         Me.LblAlmacen.Name = "LblAlmacen"
-        Me.LblAlmacen.Size = New System.Drawing.Size(188, 40)
+        Me.LblAlmacen.Size = New System.Drawing.Size(215, 53)
         Me.LblAlmacen.TabIndex = 2
         Me.LblAlmacen.Text = "Almacen"
         '
         'LblSucursal
         '
         Me.LblSucursal.Dock = System.Windows.Forms.DockStyle.Top
-        Me.LblSucursal.Location = New System.Drawing.Point(0, 40)
+        Me.LblSucursal.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblSucursal.Location = New System.Drawing.Point(0, 53)
         Me.LblSucursal.Name = "LblSucursal"
-        Me.LblSucursal.Size = New System.Drawing.Size(188, 40)
+        Me.LblSucursal.Size = New System.Drawing.Size(215, 53)
         Me.LblSucursal.TabIndex = 1
         Me.LblSucursal.Text = "Sucursal"
         '
         'LblUsuario
         '
         Me.LblUsuario.Dock = System.Windows.Forms.DockStyle.Top
+        Me.LblUsuario.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.LblUsuario.Location = New System.Drawing.Point(0, 0)
         Me.LblUsuario.Name = "LblUsuario"
-        Me.LblUsuario.Size = New System.Drawing.Size(188, 40)
+        Me.LblUsuario.Size = New System.Drawing.Size(215, 53)
         Me.LblUsuario.TabIndex = 0
         Me.LblUsuario.Text = "Nombre de Usuario"
         '
         'MenuPrincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(851, 517)
+        Me.ClientSize = New System.Drawing.Size(973, 689)
         Me.Controls.Add(Me.Panel1)
         Me.IsMdiContainer = True
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "MenuPrincipal"
         Me.Text = "Menu Principal"
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
