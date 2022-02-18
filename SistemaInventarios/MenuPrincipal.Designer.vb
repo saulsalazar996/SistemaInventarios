@@ -66,130 +66,179 @@ Partial Class MenuPrincipal
         '
         'BtnCerrar
         '
+        Me.BtnCerrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.BtnCerrar.Location = New System.Drawing.Point(0, 494)
+        Me.BtnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCerrar.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnCerrar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnCerrar.Location = New System.Drawing.Point(0, 482)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(188, 23)
+        Me.BtnCerrar.Size = New System.Drawing.Size(188, 35)
         Me.BtnCerrar.TabIndex = 12
         Me.BtnCerrar.Text = "Cerrar Sesion"
-        Me.BtnCerrar.UseVisualStyleBackColor = True
+        Me.BtnCerrar.UseVisualStyleBackColor = False
         '
         'BtnAdministrador
         '
+        Me.BtnAdministrador.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnAdministrador.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 304)
+        Me.BtnAdministrador.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnAdministrador.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnAdministrador.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 400)
         Me.BtnAdministrador.Name = "BtnAdministrador"
-        Me.BtnAdministrador.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAdministrador.Size = New System.Drawing.Size(188, 35)
         Me.BtnAdministrador.TabIndex = 11
         Me.BtnAdministrador.Text = "AdmUsuarios"
-        Me.BtnAdministrador.UseVisualStyleBackColor = True
+        Me.BtnAdministrador.UseVisualStyleBackColor = False
         '
         'BtnPassword
         '
+        Me.BtnPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnPassword.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPassword.Location = New System.Drawing.Point(0, 281)
+        Me.BtnPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnPassword.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnPassword.Location = New System.Drawing.Point(0, 365)
         Me.BtnPassword.Name = "BtnPassword"
-        Me.BtnPassword.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPassword.Size = New System.Drawing.Size(188, 35)
         Me.BtnPassword.TabIndex = 10
         Me.BtnPassword.Text = "Cambio Contraseña"
-        Me.BtnPassword.UseVisualStyleBackColor = True
+        Me.BtnPassword.UseVisualStyleBackColor = False
         '
         'BtnMovimientos
         '
+        Me.BtnMovimientos.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnMovimientos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 258)
+        Me.BtnMovimientos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnMovimientos.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnMovimientos.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 330)
         Me.BtnMovimientos.Name = "BtnMovimientos"
-        Me.BtnMovimientos.Size = New System.Drawing.Size(188, 23)
+        Me.BtnMovimientos.Size = New System.Drawing.Size(188, 35)
         Me.BtnMovimientos.TabIndex = 9
         Me.BtnMovimientos.Text = "Movimientos"
-        Me.BtnMovimientos.UseVisualStyleBackColor = True
+        Me.BtnMovimientos.UseVisualStyleBackColor = False
         '
         'BtnReportes
         '
+        Me.BtnReportes.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnReportes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnReportes.Location = New System.Drawing.Point(0, 235)
+        Me.BtnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnReportes.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnReportes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnReportes.Location = New System.Drawing.Point(0, 295)
         Me.BtnReportes.Name = "BtnReportes"
-        Me.BtnReportes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnReportes.Size = New System.Drawing.Size(188, 35)
         Me.BtnReportes.TabIndex = 8
         Me.BtnReportes.Text = "Visor Reportes"
-        Me.BtnReportes.UseVisualStyleBackColor = True
+        Me.BtnReportes.UseVisualStyleBackColor = False
         '
         'BtnSalidas
         '
+        Me.BtnSalidas.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnSalidas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSalidas.Location = New System.Drawing.Point(0, 212)
+        Me.BtnSalidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSalidas.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnSalidas.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnSalidas.Location = New System.Drawing.Point(0, 260)
         Me.BtnSalidas.Name = "BtnSalidas"
-        Me.BtnSalidas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnSalidas.Size = New System.Drawing.Size(188, 35)
         Me.BtnSalidas.TabIndex = 7
         Me.BtnSalidas.Text = "Salidas"
-        Me.BtnSalidas.UseVisualStyleBackColor = True
+        Me.BtnSalidas.UseVisualStyleBackColor = False
         '
         'BtnEntradas
         '
+        Me.BtnEntradas.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnEntradas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnEntradas.Location = New System.Drawing.Point(0, 189)
+        Me.BtnEntradas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnEntradas.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnEntradas.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnEntradas.Location = New System.Drawing.Point(0, 225)
         Me.BtnEntradas.Name = "BtnEntradas"
-        Me.BtnEntradas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnEntradas.Size = New System.Drawing.Size(188, 35)
         Me.BtnEntradas.TabIndex = 6
         Me.BtnEntradas.Text = "Entradas"
-        Me.BtnEntradas.UseVisualStyleBackColor = True
+        Me.BtnEntradas.UseVisualStyleBackColor = False
         '
         'BtnPartes
         '
+        Me.BtnPartes.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnPartes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPartes.Location = New System.Drawing.Point(0, 166)
+        Me.BtnPartes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnPartes.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnPartes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnPartes.Location = New System.Drawing.Point(0, 190)
         Me.BtnPartes.Name = "BtnPartes"
-        Me.BtnPartes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPartes.Size = New System.Drawing.Size(188, 35)
         Me.BtnPartes.TabIndex = 5
         Me.BtnPartes.Text = "Partes"
-        Me.BtnPartes.UseVisualStyleBackColor = True
+        Me.BtnPartes.UseVisualStyleBackColor = False
         '
         'BtnAlmacenes
         '
+        Me.BtnAlmacenes.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnAlmacenes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAlmacenes.Location = New System.Drawing.Point(0, 143)
+        Me.BtnAlmacenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnAlmacenes.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnAlmacenes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.BtnAlmacenes.Location = New System.Drawing.Point(0, 155)
         Me.BtnAlmacenes.Name = "BtnAlmacenes"
-        Me.BtnAlmacenes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAlmacenes.Size = New System.Drawing.Size(188, 35)
         Me.BtnAlmacenes.TabIndex = 4
         Me.BtnAlmacenes.Text = "Almacenes"
-        Me.BtnAlmacenes.UseVisualStyleBackColor = True
+        Me.BtnAlmacenes.UseVisualStyleBackColor = False
         '
         'BtnRegistro
         '
+        Me.BtnRegistro.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnRegistro.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnRegistro.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnRegistro.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.BtnRegistro.Location = New System.Drawing.Point(0, 120)
         Me.BtnRegistro.Name = "BtnRegistro"
-        Me.BtnRegistro.Size = New System.Drawing.Size(188, 23)
+        Me.BtnRegistro.Size = New System.Drawing.Size(188, 35)
         Me.BtnRegistro.TabIndex = 3
         Me.BtnRegistro.Text = "Registro"
-        Me.BtnRegistro.UseVisualStyleBackColor = True
+        Me.BtnRegistro.UseVisualStyleBackColor = False
         '
         'LblAlmacen
         '
         Me.LblAlmacen.Dock = System.Windows.Forms.DockStyle.Top
+        Me.LblAlmacen.Font = New System.Drawing.Font("Britannic Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblAlmacen.ForeColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.LblAlmacen.Location = New System.Drawing.Point(0, 80)
         Me.LblAlmacen.Name = "LblAlmacen"
         Me.LblAlmacen.Size = New System.Drawing.Size(188, 40)
         Me.LblAlmacen.TabIndex = 2
         Me.LblAlmacen.Text = "Almacen"
+        Me.LblAlmacen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'LblSucursal
         '
         Me.LblSucursal.Dock = System.Windows.Forms.DockStyle.Top
+        Me.LblSucursal.Font = New System.Drawing.Font("Britannic Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblSucursal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.LblSucursal.Location = New System.Drawing.Point(0, 40)
         Me.LblSucursal.Name = "LblSucursal"
         Me.LblSucursal.Size = New System.Drawing.Size(188, 40)
         Me.LblSucursal.TabIndex = 1
         Me.LblSucursal.Text = "Sucursal"
+        Me.LblSucursal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'LblUsuario
         '
         Me.LblUsuario.Dock = System.Windows.Forms.DockStyle.Top
+        Me.LblUsuario.Font = New System.Drawing.Font("Britannic Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.LblUsuario.Location = New System.Drawing.Point(0, 0)
         Me.LblUsuario.Name = "LblUsuario"
         Me.LblUsuario.Size = New System.Drawing.Size(188, 40)
         Me.LblUsuario.TabIndex = 0
         Me.LblUsuario.Text = "Nombre de Usuario"
+        Me.LblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MenuPrincipal
         '
