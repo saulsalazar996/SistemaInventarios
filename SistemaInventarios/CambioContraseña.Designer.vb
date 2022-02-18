@@ -30,8 +30,8 @@ Partial Class CambioContraseña
         Me.Label2 = New System.Windows.Forms.Label()
         Me.BtnRegistra = New System.Windows.Forms.Button()
         Me.TxtPass = New System.Windows.Forms.TextBox()
-        Me.TxtUsuario = New System.Windows.Forms.TextBox()
         Me.TxtConfPass = New System.Windows.Forms.TextBox()
+        Me.LblUsuario = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -115,18 +115,6 @@ Partial Class CambioContraseña
         Me.TxtPass.Text = "Contraseña"
         Me.TxtPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TxtUsuario
-        '
-        Me.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TxtUsuario.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.TxtUsuario.Location = New System.Drawing.Point(70, 29)
-        Me.TxtUsuario.Name = "TxtUsuario"
-        Me.TxtUsuario.Size = New System.Drawing.Size(302, 18)
-        Me.TxtUsuario.TabIndex = 10
-        Me.TxtUsuario.Text = "Usuario"
-        Me.TxtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'TxtConfPass
         '
         Me.TxtConfPass.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -139,15 +127,27 @@ Partial Class CambioContraseña
         Me.TxtConfPass.Text = "Contraseña"
         Me.TxtConfPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'LblUsuario
+        '
+        Me.LblUsuario.BackColor = System.Drawing.Color.White
+        Me.LblUsuario.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LblUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.LblUsuario.Location = New System.Drawing.Point(70, 26)
+        Me.LblUsuario.Name = "LblUsuario"
+        Me.LblUsuario.Size = New System.Drawing.Size(302, 23)
+        Me.LblUsuario.TabIndex = 13
+        Me.LblUsuario.Text = "Usuario"
+        Me.LblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'CambioContraseña
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(408, 306)
+        Me.Controls.Add(Me.LblUsuario)
         Me.Controls.Add(Me.TxtConfPass)
         Me.Controls.Add(Me.TxtPass)
-        Me.Controls.Add(Me.TxtUsuario)
         Me.Controls.Add(Me.BtnRegistra)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox3)
@@ -172,6 +172,6 @@ Partial Class CambioContraseña
     Friend WithEvents Label2 As Label
     Friend WithEvents BtnRegistra As Button
     Friend WithEvents TxtPass As TextBox
-    Friend WithEvents TxtUsuario As TextBox
     Friend WithEvents TxtConfPass As TextBox
+    Friend WithEvents LblUsuario As Label
 End Class
