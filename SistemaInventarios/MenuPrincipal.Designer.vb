@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class MenuPrincipal
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -25,6 +25,12 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.BtnCerrar = New System.Windows.Forms.Button()
+        Me.BtnAdministrador = New System.Windows.Forms.Button()
+        Me.BtnPassword = New System.Windows.Forms.Button()
+        Me.BtnMovimientos = New System.Windows.Forms.Button()
+        Me.BtnReportes = New System.Windows.Forms.Button()
+        Me.BtnSalidas = New System.Windows.Forms.Button()
         Me.BtnEntradas = New System.Windows.Forms.Button()
         Me.BtnPartes = New System.Windows.Forms.Button()
         Me.BtnAlmacenes = New System.Windows.Forms.Button()
@@ -32,12 +38,6 @@ Partial Class Form1
         Me.LblAlmacen = New System.Windows.Forms.Label()
         Me.LblSucursal = New System.Windows.Forms.Label()
         Me.LblUsuario = New System.Windows.Forms.Label()
-        Me.BtnSalidas = New System.Windows.Forms.Button()
-        Me.BtnReportes = New System.Windows.Forms.Button()
-        Me.BtnMovimientos = New System.Windows.Forms.Button()
-        Me.BtnPassword = New System.Windows.Forms.Button()
-        Me.BtnAdministrador = New System.Windows.Forms.Button()
-        Me.BtnCerrar = New System.Windows.Forms.Button()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -63,6 +63,66 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(188, 517)
         Me.Panel1.TabIndex = 5
+        '
+        'BtnCerrar
+        '
+        Me.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.BtnCerrar.Location = New System.Drawing.Point(0, 494)
+        Me.BtnCerrar.Name = "BtnCerrar"
+        Me.BtnCerrar.Size = New System.Drawing.Size(188, 23)
+        Me.BtnCerrar.TabIndex = 12
+        Me.BtnCerrar.Text = "Cerrar Sesion"
+        Me.BtnCerrar.UseVisualStyleBackColor = True
+        '
+        'BtnAdministrador
+        '
+        Me.BtnAdministrador.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 304)
+        Me.BtnAdministrador.Name = "BtnAdministrador"
+        Me.BtnAdministrador.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAdministrador.TabIndex = 11
+        Me.BtnAdministrador.Text = "AdmUsuarios"
+        Me.BtnAdministrador.UseVisualStyleBackColor = True
+        '
+        'BtnPassword
+        '
+        Me.BtnPassword.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnPassword.Location = New System.Drawing.Point(0, 281)
+        Me.BtnPassword.Name = "BtnPassword"
+        Me.BtnPassword.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPassword.TabIndex = 10
+        Me.BtnPassword.Text = "Cambio Contraseña"
+        Me.BtnPassword.UseVisualStyleBackColor = True
+        '
+        'BtnMovimientos
+        '
+        Me.BtnMovimientos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 258)
+        Me.BtnMovimientos.Name = "BtnMovimientos"
+        Me.BtnMovimientos.Size = New System.Drawing.Size(188, 23)
+        Me.BtnMovimientos.TabIndex = 9
+        Me.BtnMovimientos.Text = "Movimientos"
+        Me.BtnMovimientos.UseVisualStyleBackColor = True
+        '
+        'BtnReportes
+        '
+        Me.BtnReportes.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnReportes.Location = New System.Drawing.Point(0, 235)
+        Me.BtnReportes.Name = "BtnReportes"
+        Me.BtnReportes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnReportes.TabIndex = 8
+        Me.BtnReportes.Text = "Visor Reportes"
+        Me.BtnReportes.UseVisualStyleBackColor = True
+        '
+        'BtnSalidas
+        '
+        Me.BtnSalidas.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnSalidas.Location = New System.Drawing.Point(0, 212)
+        Me.BtnSalidas.Name = "BtnSalidas"
+        Me.BtnSalidas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnSalidas.TabIndex = 7
+        Me.BtnSalidas.Text = "Salidas"
+        Me.BtnSalidas.UseVisualStyleBackColor = True
         '
         'BtnEntradas
         '
@@ -131,74 +191,14 @@ Partial Class Form1
         Me.LblUsuario.TabIndex = 0
         Me.LblUsuario.Text = "Nombre de Usuario"
         '
-        'BtnSalidas
-        '
-        Me.BtnSalidas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSalidas.Location = New System.Drawing.Point(0, 212)
-        Me.BtnSalidas.Name = "BtnSalidas"
-        Me.BtnSalidas.Size = New System.Drawing.Size(188, 23)
-        Me.BtnSalidas.TabIndex = 7
-        Me.BtnSalidas.Text = "Salidas"
-        Me.BtnSalidas.UseVisualStyleBackColor = True
-        '
-        'BtnReportes
-        '
-        Me.BtnReportes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnReportes.Location = New System.Drawing.Point(0, 235)
-        Me.BtnReportes.Name = "BtnReportes"
-        Me.BtnReportes.Size = New System.Drawing.Size(188, 23)
-        Me.BtnReportes.TabIndex = 8
-        Me.BtnReportes.Text = "Visor Reportes"
-        Me.BtnReportes.UseVisualStyleBackColor = True
-        '
-        'BtnMovimientos
-        '
-        Me.BtnMovimientos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 258)
-        Me.BtnMovimientos.Name = "BtnMovimientos"
-        Me.BtnMovimientos.Size = New System.Drawing.Size(188, 23)
-        Me.BtnMovimientos.TabIndex = 9
-        Me.BtnMovimientos.Text = "Movimientos"
-        Me.BtnMovimientos.UseVisualStyleBackColor = True
-        '
-        'BtnPassword
-        '
-        Me.BtnPassword.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPassword.Location = New System.Drawing.Point(0, 281)
-        Me.BtnPassword.Name = "BtnPassword"
-        Me.BtnPassword.Size = New System.Drawing.Size(188, 23)
-        Me.BtnPassword.TabIndex = 10
-        Me.BtnPassword.Text = "Cambio Contraseña"
-        Me.BtnPassword.UseVisualStyleBackColor = True
-        '
-        'BtnAdministrador
-        '
-        Me.BtnAdministrador.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 304)
-        Me.BtnAdministrador.Name = "BtnAdministrador"
-        Me.BtnAdministrador.Size = New System.Drawing.Size(188, 23)
-        Me.BtnAdministrador.TabIndex = 11
-        Me.BtnAdministrador.Text = "AdmUsuarios"
-        Me.BtnAdministrador.UseVisualStyleBackColor = True
-        '
-        'BtnCerrar
-        '
-        Me.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.BtnCerrar.Location = New System.Drawing.Point(0, 494)
-        Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(188, 23)
-        Me.BtnCerrar.TabIndex = 12
-        Me.BtnCerrar.Text = "Cerrar Sesion"
-        Me.BtnCerrar.UseVisualStyleBackColor = True
-        '
-        'Form1
+        'MenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(851, 517)
         Me.Controls.Add(Me.Panel1)
         Me.IsMdiContainer = True
-        Me.Name = "Form1"
+        Me.Name = "MenuPrincipal"
         Me.Text = "Menu Principal"
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
