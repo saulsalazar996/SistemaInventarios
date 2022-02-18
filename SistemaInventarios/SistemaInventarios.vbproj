@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>SistemaInventarios</RootNamespace>
-    <StartupObject>SistemaInventarios.Form1</StartupObject>
+    <StartupObject>SistemaInventarios.Login</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
