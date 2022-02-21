@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>SistemaInventarios</RootNamespace>
     <StartupObject>SistemaInventarios.Login</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
