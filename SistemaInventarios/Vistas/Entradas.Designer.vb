@@ -38,16 +38,12 @@ Partial Class Entradas
         Me.TxtCosto = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.TxtCaja = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.TxtFila = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.TxtColumna = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.TxtRack = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.TxtFecha = New System.Windows.Forms.TextBox()
@@ -60,6 +56,10 @@ Partial Class Entradas
         Me.BtnNuevo = New System.Windows.Forms.Button()
         Me.TxtIdMovEnt = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.CmbRack = New System.Windows.Forms.ComboBox()
+        Me.CmbColumna = New System.Windows.Forms.ComboBox()
+        Me.CmbFila = New System.Windows.Forms.ComboBox()
+        Me.CmbCajon = New System.Windows.Forms.ComboBox()
         Me.Panel4.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel16.SuspendLayout()
@@ -235,23 +235,13 @@ Partial Class Entradas
         '
         'Panel13
         '
-        Me.Panel13.Controls.Add(Me.TxtCaja)
+        Me.Panel13.Controls.Add(Me.CmbCajon)
         Me.Panel13.Controls.Add(Me.Label7)
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel13.Location = New System.Drawing.Point(0, 217)
         Me.Panel13.Name = "Panel13"
         Me.Panel13.Size = New System.Drawing.Size(880, 37)
         Me.Panel13.TabIndex = 9
-        '
-        'TxtCaja
-        '
-        Me.TxtCaja.Dock = System.Windows.Forms.DockStyle.Left
-        Me.TxtCaja.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtCaja.Location = New System.Drawing.Point(109, 0)
-        Me.TxtCaja.Name = "TxtCaja"
-        Me.TxtCaja.Size = New System.Drawing.Size(218, 34)
-        Me.TxtCaja.TabIndex = 1
-        Me.TxtCaja.Visible = False
         '
         'Label7
         '
@@ -262,28 +252,18 @@ Partial Class Entradas
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(109, 37)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Caja"
+        Me.Label7.Text = "Cajon"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Panel12
         '
-        Me.Panel12.Controls.Add(Me.TxtFila)
+        Me.Panel12.Controls.Add(Me.CmbFila)
         Me.Panel12.Controls.Add(Me.Label6)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel12.Location = New System.Drawing.Point(0, 180)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(880, 37)
         Me.Panel12.TabIndex = 8
-        '
-        'TxtFila
-        '
-        Me.TxtFila.Dock = System.Windows.Forms.DockStyle.Left
-        Me.TxtFila.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtFila.Location = New System.Drawing.Point(109, 0)
-        Me.TxtFila.Name = "TxtFila"
-        Me.TxtFila.Size = New System.Drawing.Size(218, 34)
-        Me.TxtFila.TabIndex = 1
-        Me.TxtFila.Visible = False
         '
         'Label6
         '
@@ -299,23 +279,13 @@ Partial Class Entradas
         '
         'Panel11
         '
-        Me.Panel11.Controls.Add(Me.TxtColumna)
+        Me.Panel11.Controls.Add(Me.CmbColumna)
         Me.Panel11.Controls.Add(Me.Label5)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel11.Location = New System.Drawing.Point(0, 143)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(880, 37)
         Me.Panel11.TabIndex = 7
-        '
-        'TxtColumna
-        '
-        Me.TxtColumna.Dock = System.Windows.Forms.DockStyle.Left
-        Me.TxtColumna.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtColumna.Location = New System.Drawing.Point(109, 0)
-        Me.TxtColumna.Name = "TxtColumna"
-        Me.TxtColumna.Size = New System.Drawing.Size(218, 34)
-        Me.TxtColumna.TabIndex = 1
-        Me.TxtColumna.Visible = False
         '
         'Label5
         '
@@ -331,23 +301,13 @@ Partial Class Entradas
         '
         'Panel9
         '
-        Me.Panel9.Controls.Add(Me.TxtRack)
+        Me.Panel9.Controls.Add(Me.CmbRack)
         Me.Panel9.Controls.Add(Me.Label4)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel9.Location = New System.Drawing.Point(0, 106)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(880, 37)
         Me.Panel9.TabIndex = 6
-        '
-        'TxtRack
-        '
-        Me.TxtRack.Dock = System.Windows.Forms.DockStyle.Left
-        Me.TxtRack.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtRack.Location = New System.Drawing.Point(109, 0)
-        Me.TxtRack.Name = "TxtRack"
-        Me.TxtRack.Size = New System.Drawing.Size(218, 34)
-        Me.TxtRack.TabIndex = 1
-        Me.TxtRack.Visible = False
         '
         'Label4
         '
@@ -413,18 +373,19 @@ Partial Class Entradas
         Me.BtnBuscarTipEnt.ForeColor = System.Drawing.Color.White
         Me.BtnBuscarTipEnt.Location = New System.Drawing.Point(327, 0)
         Me.BtnBuscarTipEnt.Name = "BtnBuscarTipEnt"
-        Me.BtnBuscarTipEnt.Size = New System.Drawing.Size(107, 32)
+        Me.BtnBuscarTipEnt.Size = New System.Drawing.Size(172, 32)
         Me.BtnBuscarTipEnt.TabIndex = 3
-        Me.BtnBuscarTipEnt.Text = "Buscar"
+        Me.BtnBuscarTipEnt.Text = "Crear Nuevo"
         Me.BtnBuscarTipEnt.UseVisualStyleBackColor = False
         '
         'CmbTipoEntrada
         '
         Me.CmbTipoEntrada.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbTipoEntrada.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.CmbTipoEntrada.FormattingEnabled = True
         Me.CmbTipoEntrada.Location = New System.Drawing.Point(109, 0)
         Me.CmbTipoEntrada.Name = "CmbTipoEntrada"
-        Me.CmbTipoEntrada.Size = New System.Drawing.Size(218, 28)
+        Me.CmbTipoEntrada.Size = New System.Drawing.Size(218, 33)
         Me.CmbTipoEntrada.TabIndex = 2
         '
         'Label3
@@ -486,6 +447,46 @@ Partial Class Entradas
         Me.Label1.Text = "IdMovEnt"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'CmbRack
+        '
+        Me.CmbRack.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbRack.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbRack.FormattingEnabled = True
+        Me.CmbRack.Location = New System.Drawing.Point(109, 0)
+        Me.CmbRack.Name = "CmbRack"
+        Me.CmbRack.Size = New System.Drawing.Size(218, 33)
+        Me.CmbRack.TabIndex = 3
+        '
+        'CmbColumna
+        '
+        Me.CmbColumna.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbColumna.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbColumna.FormattingEnabled = True
+        Me.CmbColumna.Location = New System.Drawing.Point(109, 0)
+        Me.CmbColumna.Name = "CmbColumna"
+        Me.CmbColumna.Size = New System.Drawing.Size(218, 33)
+        Me.CmbColumna.TabIndex = 4
+        '
+        'CmbFila
+        '
+        Me.CmbFila.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbFila.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbFila.FormattingEnabled = True
+        Me.CmbFila.Location = New System.Drawing.Point(109, 0)
+        Me.CmbFila.Name = "CmbFila"
+        Me.CmbFila.Size = New System.Drawing.Size(218, 33)
+        Me.CmbFila.TabIndex = 4
+        '
+        'CmbCajon
+        '
+        Me.CmbCajon.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbCajon.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbCajon.FormattingEnabled = True
+        Me.CmbCajon.Location = New System.Drawing.Point(109, 0)
+        Me.CmbCajon.Name = "CmbCajon"
+        Me.CmbCajon.Size = New System.Drawing.Size(218, 33)
+        Me.CmbCajon.TabIndex = 4
+        '
         'Entradas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
@@ -507,13 +508,9 @@ Partial Class Entradas
         Me.Panel14.ResumeLayout(False)
         Me.Panel14.PerformLayout()
         Me.Panel13.ResumeLayout(False)
-        Me.Panel13.PerformLayout()
         Me.Panel12.ResumeLayout(False)
-        Me.Panel12.PerformLayout()
         Me.Panel11.ResumeLayout(False)
-        Me.Panel11.PerformLayout()
         Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
         Me.Panel10.ResumeLayout(False)
@@ -545,20 +542,20 @@ Partial Class Entradas
     Friend WithEvents TxtCosto As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Panel13 As Panel
-    Friend WithEvents TxtCaja As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Panel12 As Panel
-    Friend WithEvents TxtFila As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Panel11 As Panel
-    Friend WithEvents TxtColumna As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Panel9 As Panel
-    Friend WithEvents TxtRack As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel15 As Panel
     Friend WithEvents TxtObservacionEnt As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Panel16 As Panel
     Friend WithEvents Button1 As Button
+    Friend WithEvents CmbCajon As ComboBox
+    Friend WithEvents CmbFila As ComboBox
+    Friend WithEvents CmbColumna As ComboBox
+    Friend WithEvents CmbRack As ComboBox
 End Class
