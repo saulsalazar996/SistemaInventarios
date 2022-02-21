@@ -75,18 +75,16 @@ Partial Class RegistroUsuario
         '
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(11, 443)
+        Me.Panel1.Size = New System.Drawing.Size(10, 332)
         Me.Panel1.TabIndex = 0
         '
         'Panel2
         '
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel2.Location = New System.Drawing.Point(967, 0)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel2.Location = New System.Drawing.Point(846, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(11, 443)
+        Me.Panel2.Size = New System.Drawing.Size(10, 332)
         Me.Panel2.TabIndex = 1
         '
         'Panel3
@@ -94,10 +92,9 @@ Partial Class RegistroUsuario
         Me.Panel3.Controls.Add(Me.Label3)
         Me.Panel3.Controls.Add(Me.Panel8)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel3.Location = New System.Drawing.Point(11, 0)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel3.Location = New System.Drawing.Point(10, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(956, 56)
+        Me.Panel3.Size = New System.Drawing.Size(836, 42)
         Me.Panel3.TabIndex = 2
         '
         'Label3
@@ -105,9 +102,9 @@ Partial Class RegistroUsuario
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Label3.Font = New System.Drawing.Font("Britannic Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(0, 13)
+        Me.Label3.Location = New System.Drawing.Point(0, 10)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(956, 43)
+        Me.Label3.Size = New System.Drawing.Size(836, 32)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Registro de nuevo usuario"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -116,18 +113,16 @@ Partial Class RegistroUsuario
         '
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel8.Location = New System.Drawing.Point(0, 0)
-        Me.Panel8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(956, 13)
+        Me.Panel8.Size = New System.Drawing.Size(836, 10)
         Me.Panel8.TabIndex = 4
         '
         'Panel4
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel4.Location = New System.Drawing.Point(11, 430)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel4.Location = New System.Drawing.Point(10, 322)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(956, 13)
+        Me.Panel4.Size = New System.Drawing.Size(836, 10)
         Me.Panel4.TabIndex = 3
         '
         'Panel5
@@ -135,20 +130,18 @@ Partial Class RegistroUsuario
         Me.Panel5.Controls.Add(Me.TxtNombre)
         Me.Panel5.Controls.Add(Me.Label1)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel5.Location = New System.Drawing.Point(11, 56)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel5.Location = New System.Drawing.Point(10, 42)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(956, 36)
+        Me.Panel5.Size = New System.Drawing.Size(836, 27)
         Me.Panel5.TabIndex = 4
         '
         'TxtNombre
         '
         Me.TxtNombre.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtNombre.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtNombre.Location = New System.Drawing.Point(177, 0)
-        Me.TxtNombre.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtNombre.Location = New System.Drawing.Point(155, 0)
         Me.TxtNombre.Name = "TxtNombre"
-        Me.TxtNombre.Size = New System.Drawing.Size(454, 29)
+        Me.TxtNombre.Size = New System.Drawing.Size(398, 25)
         Me.TxtNombre.TabIndex = 5
         '
         'Label1
@@ -158,7 +151,7 @@ Partial Class RegistroUsuario
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(177, 36)
+        Me.Label1.Size = New System.Drawing.Size(155, 27)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nombre"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -166,10 +159,9 @@ Partial Class RegistroUsuario
         'Panel6
         '
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel6.Location = New System.Drawing.Point(11, 92)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel6.Location = New System.Drawing.Point(10, 69)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(956, 7)
+        Me.Panel6.Size = New System.Drawing.Size(836, 5)
         Me.Panel6.TabIndex = 5
         '
         'Panel7
@@ -179,20 +171,18 @@ Partial Class RegistroUsuario
         Me.Panel7.Controls.Add(Me.TxtApPat)
         Me.Panel7.Controls.Add(Me.Label2)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel7.Location = New System.Drawing.Point(11, 99)
-        Me.Panel7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel7.Location = New System.Drawing.Point(10, 74)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(956, 36)
+        Me.Panel7.Size = New System.Drawing.Size(836, 27)
         Me.Panel7.TabIndex = 6
         '
         'TxtApMat
         '
         Me.TxtApMat.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtApMat.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtApMat.Location = New System.Drawing.Point(477, 0)
-        Me.TxtApMat.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtApMat.Location = New System.Drawing.Point(418, 0)
         Me.TxtApMat.Name = "TxtApMat"
-        Me.TxtApMat.Size = New System.Drawing.Size(154, 29)
+        Me.TxtApMat.Size = New System.Drawing.Size(135, 25)
         Me.TxtApMat.TabIndex = 7
         '
         'Label4
@@ -200,9 +190,9 @@ Partial Class RegistroUsuario
         Me.Label4.Dock = System.Windows.Forms.DockStyle.Left
         Me.Label4.Font = New System.Drawing.Font("Britannic Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(331, 0)
+        Me.Label4.Location = New System.Drawing.Point(290, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(146, 36)
+        Me.Label4.Size = New System.Drawing.Size(128, 27)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Apellido materno"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -211,10 +201,9 @@ Partial Class RegistroUsuario
         '
         Me.TxtApPat.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtApPat.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtApPat.Location = New System.Drawing.Point(177, 0)
-        Me.TxtApPat.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtApPat.Location = New System.Drawing.Point(155, 0)
         Me.TxtApPat.Name = "TxtApPat"
-        Me.TxtApPat.Size = New System.Drawing.Size(154, 29)
+        Me.TxtApPat.Size = New System.Drawing.Size(135, 25)
         Me.TxtApPat.TabIndex = 5
         '
         'Label2
@@ -224,7 +213,7 @@ Partial Class RegistroUsuario
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(177, 36)
+        Me.Label2.Size = New System.Drawing.Size(155, 27)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Apellido paterno"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -232,10 +221,9 @@ Partial Class RegistroUsuario
         'Panel9
         '
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel9.Location = New System.Drawing.Point(11, 135)
-        Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel9.Location = New System.Drawing.Point(10, 101)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(956, 7)
+        Me.Panel9.Size = New System.Drawing.Size(836, 5)
         Me.Panel9.TabIndex = 7
         '
         'Panel10
@@ -245,10 +233,9 @@ Partial Class RegistroUsuario
         Me.Panel10.Controls.Add(Me.TxtUsuario)
         Me.Panel10.Controls.Add(Me.Label6)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel10.Location = New System.Drawing.Point(11, 142)
-        Me.Panel10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel10.Location = New System.Drawing.Point(10, 106)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(956, 36)
+        Me.Panel10.Size = New System.Drawing.Size(836, 27)
         Me.Panel10.TabIndex = 8
         '
         'CboxTipoUsu
@@ -256,10 +243,9 @@ Partial Class RegistroUsuario
         Me.CboxTipoUsu.Dock = System.Windows.Forms.DockStyle.Left
         Me.CboxTipoUsu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.CboxTipoUsu.FormattingEnabled = True
-        Me.CboxTipoUsu.Location = New System.Drawing.Point(477, 0)
-        Me.CboxTipoUsu.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.CboxTipoUsu.Location = New System.Drawing.Point(418, 0)
         Me.CboxTipoUsu.Name = "CboxTipoUsu"
-        Me.CboxTipoUsu.Size = New System.Drawing.Size(154, 28)
+        Me.CboxTipoUsu.Size = New System.Drawing.Size(135, 23)
         Me.CboxTipoUsu.TabIndex = 9
         '
         'Label5
@@ -267,9 +253,9 @@ Partial Class RegistroUsuario
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Left
         Me.Label5.Font = New System.Drawing.Font("Britannic Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(331, 0)
+        Me.Label5.Location = New System.Drawing.Point(290, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(146, 36)
+        Me.Label5.Size = New System.Drawing.Size(128, 27)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Tipo de usuario"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -279,10 +265,9 @@ Partial Class RegistroUsuario
         Me.TxtUsuario.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtUsuario.Enabled = False
         Me.TxtUsuario.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtUsuario.Location = New System.Drawing.Point(177, 0)
-        Me.TxtUsuario.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtUsuario.Location = New System.Drawing.Point(155, 0)
         Me.TxtUsuario.Name = "TxtUsuario"
-        Me.TxtUsuario.Size = New System.Drawing.Size(154, 29)
+        Me.TxtUsuario.Size = New System.Drawing.Size(135, 25)
         Me.TxtUsuario.TabIndex = 5
         '
         'Label6
@@ -292,7 +277,7 @@ Partial Class RegistroUsuario
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label6.Location = New System.Drawing.Point(0, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(177, 36)
+        Me.Label6.Size = New System.Drawing.Size(155, 27)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Usuario"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -300,10 +285,9 @@ Partial Class RegistroUsuario
         'Panel11
         '
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel11.Location = New System.Drawing.Point(11, 178)
-        Me.Panel11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel11.Location = New System.Drawing.Point(10, 133)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(956, 7)
+        Me.Panel11.Size = New System.Drawing.Size(836, 5)
         Me.Panel11.TabIndex = 9
         '
         'Panel12
@@ -311,10 +295,9 @@ Partial Class RegistroUsuario
         Me.Panel12.Controls.Add(Me.CboxSucursal)
         Me.Panel12.Controls.Add(Me.Label7)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel12.Location = New System.Drawing.Point(11, 185)
-        Me.Panel12.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel12.Location = New System.Drawing.Point(10, 138)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(956, 36)
+        Me.Panel12.Size = New System.Drawing.Size(836, 27)
         Me.Panel12.TabIndex = 10
         '
         'CboxSucursal
@@ -322,10 +305,9 @@ Partial Class RegistroUsuario
         Me.CboxSucursal.Dock = System.Windows.Forms.DockStyle.Left
         Me.CboxSucursal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.CboxSucursal.FormattingEnabled = True
-        Me.CboxSucursal.Location = New System.Drawing.Point(177, 0)
-        Me.CboxSucursal.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.CboxSucursal.Location = New System.Drawing.Point(155, 0)
         Me.CboxSucursal.Name = "CboxSucursal"
-        Me.CboxSucursal.Size = New System.Drawing.Size(154, 28)
+        Me.CboxSucursal.Size = New System.Drawing.Size(135, 23)
         Me.CboxSucursal.TabIndex = 9
         '
         'Label7
@@ -335,7 +317,7 @@ Partial Class RegistroUsuario
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label7.Location = New System.Drawing.Point(0, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(177, 36)
+        Me.Label7.Size = New System.Drawing.Size(155, 27)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Sucursal"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -343,10 +325,9 @@ Partial Class RegistroUsuario
         'Panel13
         '
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel13.Location = New System.Drawing.Point(11, 221)
-        Me.Panel13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel13.Location = New System.Drawing.Point(10, 165)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(956, 7)
+        Me.Panel13.Size = New System.Drawing.Size(836, 5)
         Me.Panel13.TabIndex = 11
         '
         'Panel14
@@ -354,20 +335,18 @@ Partial Class RegistroUsuario
         Me.Panel14.Controls.Add(Me.TxtPass)
         Me.Panel14.Controls.Add(Me.Label9)
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel14.Location = New System.Drawing.Point(11, 228)
-        Me.Panel14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel14.Location = New System.Drawing.Point(10, 170)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(956, 36)
+        Me.Panel14.Size = New System.Drawing.Size(836, 27)
         Me.Panel14.TabIndex = 12
         '
         'TxtPass
         '
         Me.TxtPass.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtPass.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtPass.Location = New System.Drawing.Point(177, 0)
-        Me.TxtPass.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtPass.Location = New System.Drawing.Point(155, 0)
         Me.TxtPass.Name = "TxtPass"
-        Me.TxtPass.Size = New System.Drawing.Size(154, 29)
+        Me.TxtPass.Size = New System.Drawing.Size(135, 25)
         Me.TxtPass.TabIndex = 5
         Me.TxtPass.UseSystemPasswordChar = True
         '
@@ -378,7 +357,7 @@ Partial Class RegistroUsuario
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label9.Location = New System.Drawing.Point(0, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(177, 36)
+        Me.Label9.Size = New System.Drawing.Size(155, 27)
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "Contraseña"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -386,10 +365,9 @@ Partial Class RegistroUsuario
         'Panel15
         '
         Me.Panel15.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel15.Location = New System.Drawing.Point(11, 264)
-        Me.Panel15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel15.Location = New System.Drawing.Point(10, 197)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(956, 7)
+        Me.Panel15.Size = New System.Drawing.Size(836, 5)
         Me.Panel15.TabIndex = 13
         '
         'Panel16
@@ -397,20 +375,18 @@ Partial Class RegistroUsuario
         Me.Panel16.Controls.Add(Me.TxtConfPass)
         Me.Panel16.Controls.Add(Me.Label8)
         Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel16.Location = New System.Drawing.Point(11, 271)
-        Me.Panel16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel16.Location = New System.Drawing.Point(10, 202)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(956, 36)
+        Me.Panel16.Size = New System.Drawing.Size(836, 27)
         Me.Panel16.TabIndex = 14
         '
         'TxtConfPass
         '
         Me.TxtConfPass.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtConfPass.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtConfPass.Location = New System.Drawing.Point(177, 0)
-        Me.TxtConfPass.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TxtConfPass.Location = New System.Drawing.Point(155, 0)
         Me.TxtConfPass.Name = "TxtConfPass"
-        Me.TxtConfPass.Size = New System.Drawing.Size(154, 29)
+        Me.TxtConfPass.Size = New System.Drawing.Size(135, 25)
         Me.TxtConfPass.TabIndex = 5
         Me.TxtConfPass.UseSystemPasswordChar = True
         '
@@ -421,7 +397,7 @@ Partial Class RegistroUsuario
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label8.Location = New System.Drawing.Point(0, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(177, 36)
+        Me.Label8.Size = New System.Drawing.Size(155, 27)
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "Confirma contraseña"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -429,10 +405,9 @@ Partial Class RegistroUsuario
         'Panel17
         '
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel17.Location = New System.Drawing.Point(11, 307)
-        Me.Panel17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel17.Location = New System.Drawing.Point(10, 229)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(956, 7)
+        Me.Panel17.Size = New System.Drawing.Size(836, 5)
         Me.Panel17.TabIndex = 15
         '
         'Panel18
@@ -442,10 +417,9 @@ Partial Class RegistroUsuario
         Me.Panel18.Controls.Add(Me.BtnReg)
         Me.Panel18.Controls.Add(Me.Panel19)
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel18.Location = New System.Drawing.Point(11, 314)
-        Me.Panel18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel18.Location = New System.Drawing.Point(10, 234)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(956, 33)
+        Me.Panel18.Size = New System.Drawing.Size(836, 25)
         Me.Panel18.TabIndex = 16
         '
         'BtnLimpiar
@@ -455,10 +429,9 @@ Partial Class RegistroUsuario
         Me.BtnLimpiar.FlatAppearance.BorderSize = 0
         Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLimpiar.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnLimpiar.Location = New System.Drawing.Point(182, 0)
-        Me.BtnLimpiar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnLimpiar.Location = New System.Drawing.Point(160, 0)
         Me.BtnLimpiar.Name = "BtnLimpiar"
-        Me.BtnLimpiar.Size = New System.Drawing.Size(160, 33)
+        Me.BtnLimpiar.Size = New System.Drawing.Size(140, 25)
         Me.BtnLimpiar.TabIndex = 19
         Me.BtnLimpiar.Text = "Limpiar campos"
         Me.BtnLimpiar.UseVisualStyleBackColor = False
@@ -466,10 +439,9 @@ Partial Class RegistroUsuario
         'Panel20
         '
         Me.Panel20.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel20.Location = New System.Drawing.Point(171, 0)
-        Me.Panel20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel20.Location = New System.Drawing.Point(150, 0)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(11, 33)
+        Me.Panel20.Size = New System.Drawing.Size(10, 25)
         Me.Panel20.TabIndex = 18
         '
         'BtnReg
@@ -479,10 +451,9 @@ Partial Class RegistroUsuario
         Me.BtnReg.FlatAppearance.BorderSize = 0
         Me.BtnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnReg.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnReg.Location = New System.Drawing.Point(11, 0)
-        Me.BtnReg.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnReg.Location = New System.Drawing.Point(10, 0)
         Me.BtnReg.Name = "BtnReg"
-        Me.BtnReg.Size = New System.Drawing.Size(160, 33)
+        Me.BtnReg.Size = New System.Drawing.Size(140, 25)
         Me.BtnReg.TabIndex = 17
         Me.BtnReg.Text = "Registrar"
         Me.BtnReg.UseVisualStyleBackColor = False
@@ -491,16 +462,15 @@ Partial Class RegistroUsuario
         '
         Me.Panel19.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel19.Location = New System.Drawing.Point(0, 0)
-        Me.Panel19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(11, 33)
+        Me.Panel19.Size = New System.Drawing.Size(10, 25)
         Me.Panel19.TabIndex = 1
         '
         'RegistroUsuario
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(978, 443)
+        Me.ClientSize = New System.Drawing.Size(856, 332)
         Me.Controls.Add(Me.Panel18)
         Me.Controls.Add(Me.Panel17)
         Me.Controls.Add(Me.Panel16)
@@ -520,7 +490,6 @@ Partial Class RegistroUsuario
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.Color.White
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "RegistroUsuario"
         Me.Text = "RegistroUsuario"
         Me.Panel3.ResumeLayout(False)
