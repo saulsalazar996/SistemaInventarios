@@ -9,6 +9,7 @@ Module ConexionBD
             ConInventarios.Open()
 
         Catch ex As Exception
+            MsgBox("No se logro conectar al servidor")
 
         End Try
 
