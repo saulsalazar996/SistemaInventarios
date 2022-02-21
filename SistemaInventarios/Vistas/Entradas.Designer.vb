@@ -38,12 +38,16 @@ Partial Class Entradas
         Me.TxtCosto = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.CmbCajon = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.CmbFila = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.CmbColumna = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.CmbRack = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.TxtFecha = New System.Windows.Forms.TextBox()
@@ -56,10 +60,6 @@ Partial Class Entradas
         Me.BtnNuevo = New System.Windows.Forms.Button()
         Me.TxtIdMovEnt = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.CmbRack = New System.Windows.Forms.ComboBox()
-        Me.CmbColumna = New System.Windows.Forms.ComboBox()
-        Me.CmbFila = New System.Windows.Forms.ComboBox()
-        Me.CmbCajon = New System.Windows.Forms.ComboBox()
         Me.Panel4.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel16.SuspendLayout()
@@ -87,7 +87,7 @@ Partial Class Entradas
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Right
         Me.Panel2.Location = New System.Drawing.Point(892, 13)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(10, 407)
+        Me.Panel2.Size = New System.Drawing.Size(10, 420)
         Me.Panel2.TabIndex = 1
         '
         'Panel3
@@ -95,7 +95,7 @@ Partial Class Entradas
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel3.Location = New System.Drawing.Point(0, 13)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(12, 407)
+        Me.Panel3.Size = New System.Drawing.Size(12, 420)
         Me.Panel3.TabIndex = 2
         '
         'Panel4
@@ -122,7 +122,7 @@ Partial Class Entradas
         'Panel5
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel5.Location = New System.Drawing.Point(12, 408)
+        Me.Panel5.Location = New System.Drawing.Point(12, 421)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(880, 12)
         Me.Panel5.TabIndex = 4
@@ -142,7 +142,7 @@ Partial Class Entradas
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel6.Location = New System.Drawing.Point(12, 55)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(880, 391)
+        Me.Panel6.Size = New System.Drawing.Size(880, 378)
         Me.Panel6.TabIndex = 5
         '
         'Panel16
@@ -243,6 +243,16 @@ Partial Class Entradas
         Me.Panel13.Size = New System.Drawing.Size(880, 37)
         Me.Panel13.TabIndex = 9
         '
+        'CmbCajon
+        '
+        Me.CmbCajon.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbCajon.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbCajon.FormattingEnabled = True
+        Me.CmbCajon.Location = New System.Drawing.Point(109, 0)
+        Me.CmbCajon.Name = "CmbCajon"
+        Me.CmbCajon.Size = New System.Drawing.Size(218, 33)
+        Me.CmbCajon.TabIndex = 4
+        '
         'Label7
         '
         Me.Label7.Dock = System.Windows.Forms.DockStyle.Left
@@ -264,6 +274,16 @@ Partial Class Entradas
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(880, 37)
         Me.Panel12.TabIndex = 8
+        '
+        'CmbFila
+        '
+        Me.CmbFila.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbFila.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbFila.FormattingEnabled = True
+        Me.CmbFila.Location = New System.Drawing.Point(109, 0)
+        Me.CmbFila.Name = "CmbFila"
+        Me.CmbFila.Size = New System.Drawing.Size(218, 33)
+        Me.CmbFila.TabIndex = 4
         '
         'Label6
         '
@@ -287,6 +307,16 @@ Partial Class Entradas
         Me.Panel11.Size = New System.Drawing.Size(880, 37)
         Me.Panel11.TabIndex = 7
         '
+        'CmbColumna
+        '
+        Me.CmbColumna.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbColumna.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbColumna.FormattingEnabled = True
+        Me.CmbColumna.Location = New System.Drawing.Point(109, 0)
+        Me.CmbColumna.Name = "CmbColumna"
+        Me.CmbColumna.Size = New System.Drawing.Size(218, 33)
+        Me.CmbColumna.TabIndex = 4
+        '
         'Label5
         '
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Left
@@ -308,6 +338,16 @@ Partial Class Entradas
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(880, 37)
         Me.Panel9.TabIndex = 6
+        '
+        'CmbRack
+        '
+        Me.CmbRack.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbRack.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbRack.FormattingEnabled = True
+        Me.CmbRack.Location = New System.Drawing.Point(109, 0)
+        Me.CmbRack.Name = "CmbRack"
+        Me.CmbRack.Size = New System.Drawing.Size(218, 33)
+        Me.CmbRack.TabIndex = 3
         '
         'Label4
         '
@@ -447,51 +487,11 @@ Partial Class Entradas
         Me.Label1.Text = "IdMovEnt"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'CmbRack
-        '
-        Me.CmbRack.Dock = System.Windows.Forms.DockStyle.Left
-        Me.CmbRack.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.CmbRack.FormattingEnabled = True
-        Me.CmbRack.Location = New System.Drawing.Point(109, 0)
-        Me.CmbRack.Name = "CmbRack"
-        Me.CmbRack.Size = New System.Drawing.Size(218, 33)
-        Me.CmbRack.TabIndex = 3
-        '
-        'CmbColumna
-        '
-        Me.CmbColumna.Dock = System.Windows.Forms.DockStyle.Left
-        Me.CmbColumna.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.CmbColumna.FormattingEnabled = True
-        Me.CmbColumna.Location = New System.Drawing.Point(109, 0)
-        Me.CmbColumna.Name = "CmbColumna"
-        Me.CmbColumna.Size = New System.Drawing.Size(218, 33)
-        Me.CmbColumna.TabIndex = 4
-        '
-        'CmbFila
-        '
-        Me.CmbFila.Dock = System.Windows.Forms.DockStyle.Left
-        Me.CmbFila.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.CmbFila.FormattingEnabled = True
-        Me.CmbFila.Location = New System.Drawing.Point(109, 0)
-        Me.CmbFila.Name = "CmbFila"
-        Me.CmbFila.Size = New System.Drawing.Size(218, 33)
-        Me.CmbFila.TabIndex = 4
-        '
-        'CmbCajon
-        '
-        Me.CmbCajon.Dock = System.Windows.Forms.DockStyle.Left
-        Me.CmbCajon.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.CmbCajon.FormattingEnabled = True
-        Me.CmbCajon.Location = New System.Drawing.Point(109, 0)
-        Me.CmbCajon.Name = "CmbCajon"
-        Me.CmbCajon.Size = New System.Drawing.Size(218, 33)
-        Me.CmbCajon.TabIndex = 4
-        '
         'Entradas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(902, 420)
+        Me.ClientSize = New System.Drawing.Size(902, 433)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel4)
