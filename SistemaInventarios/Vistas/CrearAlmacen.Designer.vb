@@ -28,9 +28,11 @@ Partial Class CrearAlmacen
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.GpoRacks = New System.Windows.Forms.GroupBox()
         Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.BtnSiguiente = New System.Windows.Forms.Button()
         Me.CmbColumnas = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.BtnCancelar = New System.Windows.Forms.Button()
         Me.CmbFilas = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel16 = New System.Windows.Forms.Panel()
@@ -39,6 +41,8 @@ Partial Class CrearAlmacen
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.GpoCajones = New System.Windows.Forms.GroupBox()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.ChbAplicar = New System.Windows.Forms.CheckBox()
         Me.Panel18 = New System.Windows.Forms.Panel()
         Me.CmbCajonesEx = New System.Windows.Forms.ComboBox()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -46,6 +50,7 @@ Partial Class CrearAlmacen
         Me.CmbColumnasEx = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.BtnTerminar = New System.Windows.Forms.Button()
         Me.CmbFilasEx = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel17 = New System.Windows.Forms.Panel()
@@ -53,26 +58,21 @@ Partial Class CrearAlmacen
         Me.CmbRackEx = New System.Windows.Forms.ComboBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.BtnCancelar = New System.Windows.Forms.Button()
-        Me.BtnSiguiente = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.ChbAplicar = New System.Windows.Forms.CheckBox()
-        Me.BtnTerminar = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GpoRacks.SuspendLayout()
         Me.Panel14.SuspendLayout()
         Me.Panel15.SuspendLayout()
         Me.Panel16.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.GpoCajones.SuspendLayout()
+        Me.Panel8.SuspendLayout()
         Me.Panel18.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.Panel13.SuspendLayout()
         Me.Panel17.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        Me.Panel8.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel2
@@ -130,6 +130,20 @@ Partial Class CrearAlmacen
         Me.Panel14.Size = New System.Drawing.Size(646, 32)
         Me.Panel14.TabIndex = 2
         '
+        'BtnSiguiente
+        '
+        Me.BtnSiguiente.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BtnSiguiente.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.BtnSiguiente.Dock = System.Windows.Forms.DockStyle.Right
+        Me.BtnSiguiente.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnSiguiente.ForeColor = System.Drawing.Color.White
+        Me.BtnSiguiente.Location = New System.Drawing.Point(539, 0)
+        Me.BtnSiguiente.Name = "BtnSiguiente"
+        Me.BtnSiguiente.Size = New System.Drawing.Size(107, 32)
+        Me.BtnSiguiente.TabIndex = 7
+        Me.BtnSiguiente.Text = "Siguiente"
+        Me.BtnSiguiente.UseVisualStyleBackColor = False
+        '
         'CmbColumnas
         '
         Me.CmbColumnas.Dock = System.Windows.Forms.DockStyle.Left
@@ -162,6 +176,20 @@ Partial Class CrearAlmacen
         Me.Panel15.Name = "Panel15"
         Me.Panel15.Size = New System.Drawing.Size(646, 32)
         Me.Panel15.TabIndex = 1
+        '
+        'BtnCancelar
+        '
+        Me.BtnCancelar.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BtnCancelar.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.BtnCancelar.Dock = System.Windows.Forms.DockStyle.Right
+        Me.BtnCancelar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
+        Me.BtnCancelar.Location = New System.Drawing.Point(539, 0)
+        Me.BtnCancelar.Name = "BtnCancelar"
+        Me.BtnCancelar.Size = New System.Drawing.Size(107, 32)
+        Me.BtnCancelar.TabIndex = 6
+        Me.BtnCancelar.Text = "Cancelar"
+        Me.BtnCancelar.UseVisualStyleBackColor = False
         '
         'CmbFilas
         '
@@ -254,6 +282,28 @@ Partial Class CrearAlmacen
         Me.GpoCajones.TabIndex = 12
         Me.GpoCajones.TabStop = False
         '
+        'Panel8
+        '
+        Me.Panel8.Controls.Add(Me.ChbAplicar)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel8.Location = New System.Drawing.Point(3, 151)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(646, 39)
+        Me.Panel8.TabIndex = 4
+        '
+        'ChbAplicar
+        '
+        Me.ChbAplicar.AutoSize = True
+        Me.ChbAplicar.Dock = System.Windows.Forms.DockStyle.Left
+        Me.ChbAplicar.Font = New System.Drawing.Font("Britannic Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ChbAplicar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.ChbAplicar.Location = New System.Drawing.Point(0, 0)
+        Me.ChbAplicar.Name = "ChbAplicar"
+        Me.ChbAplicar.Size = New System.Drawing.Size(291, 39)
+        Me.ChbAplicar.TabIndex = 0
+        Me.ChbAplicar.Text = "Aplicar misma cantidad de cajones"
+        Me.ChbAplicar.UseVisualStyleBackColor = True
+        '
         'Panel18
         '
         Me.Panel18.Controls.Add(Me.CmbCajonesEx)
@@ -327,6 +377,20 @@ Partial Class CrearAlmacen
         Me.Panel13.Name = "Panel13"
         Me.Panel13.Size = New System.Drawing.Size(646, 32)
         Me.Panel13.TabIndex = 1
+        '
+        'BtnTerminar
+        '
+        Me.BtnTerminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BtnTerminar.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.BtnTerminar.Dock = System.Windows.Forms.DockStyle.Right
+        Me.BtnTerminar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnTerminar.ForeColor = System.Drawing.Color.White
+        Me.BtnTerminar.Location = New System.Drawing.Point(539, 0)
+        Me.BtnTerminar.Name = "BtnTerminar"
+        Me.BtnTerminar.Size = New System.Drawing.Size(107, 32)
+        Me.BtnTerminar.TabIndex = 6
+        Me.BtnTerminar.Text = "Terminar"
+        Me.BtnTerminar.UseVisualStyleBackColor = False
         '
         'CmbFilasEx
         '
@@ -404,43 +468,6 @@ Partial Class CrearAlmacen
         Me.Panel6.Size = New System.Drawing.Size(652, 31)
         Me.Panel6.TabIndex = 3
         '
-        'BtnCancelar
-        '
-        Me.BtnCancelar.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BtnCancelar.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.BtnCancelar.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BtnCancelar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
-        Me.BtnCancelar.Location = New System.Drawing.Point(539, 0)
-        Me.BtnCancelar.Name = "BtnCancelar"
-        Me.BtnCancelar.Size = New System.Drawing.Size(107, 32)
-        Me.BtnCancelar.TabIndex = 6
-        Me.BtnCancelar.Text = "Cancelar"
-        Me.BtnCancelar.UseVisualStyleBackColor = False
-        '
-        'BtnSiguiente
-        '
-        Me.BtnSiguiente.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BtnSiguiente.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.BtnSiguiente.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BtnSiguiente.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnSiguiente.ForeColor = System.Drawing.Color.White
-        Me.BtnSiguiente.Location = New System.Drawing.Point(539, 0)
-        Me.BtnSiguiente.Name = "BtnSiguiente"
-        Me.BtnSiguiente.Size = New System.Drawing.Size(107, 32)
-        Me.BtnSiguiente.TabIndex = 7
-        Me.BtnSiguiente.Text = "Siguiente"
-        Me.BtnSiguiente.UseVisualStyleBackColor = False
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.GpoCajones)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(11, 193)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(652, 196)
-        Me.Panel1.TabIndex = 10
-        '
         'Label3
         '
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
@@ -453,41 +480,14 @@ Partial Class CrearAlmacen
         Me.Label3.Text = "Registro de Rack"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel8
+        'Panel1
         '
-        Me.Panel8.Controls.Add(Me.ChbAplicar)
-        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel8.Location = New System.Drawing.Point(3, 151)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(646, 39)
-        Me.Panel8.TabIndex = 4
-        '
-        'ChbAplicar
-        '
-        Me.ChbAplicar.AutoSize = True
-        Me.ChbAplicar.Dock = System.Windows.Forms.DockStyle.Left
-        Me.ChbAplicar.Font = New System.Drawing.Font("Britannic Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ChbAplicar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.ChbAplicar.Location = New System.Drawing.Point(0, 0)
-        Me.ChbAplicar.Name = "ChbAplicar"
-        Me.ChbAplicar.Size = New System.Drawing.Size(291, 39)
-        Me.ChbAplicar.TabIndex = 0
-        Me.ChbAplicar.Text = "Aplicar misma cantidad de cajones"
-        Me.ChbAplicar.UseVisualStyleBackColor = True
-        '
-        'BtnTerminar
-        '
-        Me.BtnTerminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BtnTerminar.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.BtnTerminar.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BtnTerminar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnTerminar.ForeColor = System.Drawing.Color.White
-        Me.BtnTerminar.Location = New System.Drawing.Point(539, 0)
-        Me.BtnTerminar.Name = "BtnTerminar"
-        Me.BtnTerminar.Size = New System.Drawing.Size(107, 32)
-        Me.BtnTerminar.TabIndex = 6
-        Me.BtnTerminar.Text = "Terminar"
-        Me.BtnTerminar.UseVisualStyleBackColor = False
+        Me.Panel1.Controls.Add(Me.GpoCajones)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(11, 193)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(652, 196)
+        Me.Panel1.TabIndex = 10
         '
         'CrearAlmacen
         '
@@ -509,14 +509,14 @@ Partial Class CrearAlmacen
         Me.Panel16.ResumeLayout(False)
         Me.Panel12.ResumeLayout(False)
         Me.GpoCajones.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
         Me.Panel18.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
         Me.Panel13.ResumeLayout(False)
         Me.Panel17.ResumeLayout(False)
         Me.Panel6.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

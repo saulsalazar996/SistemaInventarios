@@ -28,7 +28,6 @@ Partial Class MenuPrincipal
         Me.BtnCerrar = New System.Windows.Forms.Button()
         Me.BtnAdministrador = New System.Windows.Forms.Button()
         Me.BtnPassword = New System.Windows.Forms.Button()
-        Me.BtnMovimientos = New System.Windows.Forms.Button()
         Me.BtnReportes = New System.Windows.Forms.Button()
         Me.BtnSalidas = New System.Windows.Forms.Button()
         Me.BtnEntradas = New System.Windows.Forms.Button()
@@ -48,7 +47,6 @@ Partial Class MenuPrincipal
         Me.Panel1.Controls.Add(Me.BtnCerrar)
         Me.Panel1.Controls.Add(Me.BtnAdministrador)
         Me.Panel1.Controls.Add(Me.BtnPassword)
-        Me.Panel1.Controls.Add(Me.BtnMovimientos)
         Me.Panel1.Controls.Add(Me.BtnReportes)
         Me.Panel1.Controls.Add(Me.BtnSalidas)
         Me.Panel1.Controls.Add(Me.BtnEntradas)
@@ -69,9 +67,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnCerrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.BtnCerrar.Location = New System.Drawing.Point(0, 494)
+        Me.BtnCerrar.Location = New System.Drawing.Point(0, 666)
         Me.BtnCerrar.Name = "BtnCerrar"
-        Me.BtnCerrar.Size = New System.Drawing.Size(188, 23)
+        Me.BtnCerrar.Size = New System.Drawing.Size(215, 23)
         Me.BtnCerrar.TabIndex = 12
         Me.BtnCerrar.Text = "Cerrar Sesion"
         Me.BtnCerrar.UseVisualStyleBackColor = False
@@ -80,9 +78,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnAdministrador.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnAdministrador.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 304)
+        Me.BtnAdministrador.Location = New System.Drawing.Point(0, 488)
         Me.BtnAdministrador.Name = "BtnAdministrador"
-        Me.BtnAdministrador.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAdministrador.Size = New System.Drawing.Size(215, 47)
         Me.BtnAdministrador.TabIndex = 11
         Me.BtnAdministrador.Text = "AdmUsuarios"
         Me.BtnAdministrador.UseVisualStyleBackColor = False
@@ -91,31 +89,20 @@ Partial Class MenuPrincipal
         '
         Me.BtnPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnPassword.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPassword.Location = New System.Drawing.Point(0, 281)
+        Me.BtnPassword.Location = New System.Drawing.Point(0, 441)
         Me.BtnPassword.Name = "BtnPassword"
-        Me.BtnPassword.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPassword.Size = New System.Drawing.Size(215, 47)
         Me.BtnPassword.TabIndex = 10
         Me.BtnPassword.Text = "Cambio Contraseña"
         Me.BtnPassword.UseVisualStyleBackColor = False
-        '
-        'BtnMovimientos
-        '
-        Me.BtnMovimientos.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.BtnMovimientos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnMovimientos.Location = New System.Drawing.Point(0, 258)
-        Me.BtnMovimientos.Name = "BtnMovimientos"
-        Me.BtnMovimientos.Size = New System.Drawing.Size(188, 23)
-        Me.BtnMovimientos.TabIndex = 9
-        Me.BtnMovimientos.Text = "Movimientos"
-        Me.BtnMovimientos.UseVisualStyleBackColor = False
         '
         'BtnReportes
         '
         Me.BtnReportes.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnReportes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnReportes.Location = New System.Drawing.Point(0, 235)
+        Me.BtnReportes.Location = New System.Drawing.Point(0, 394)
         Me.BtnReportes.Name = "BtnReportes"
-        Me.BtnReportes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnReportes.Size = New System.Drawing.Size(215, 47)
         Me.BtnReportes.TabIndex = 8
         Me.BtnReportes.Text = "Visor Reportes"
         Me.BtnReportes.UseVisualStyleBackColor = False
@@ -124,9 +111,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnSalidas.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnSalidas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSalidas.Location = New System.Drawing.Point(0, 212)
+        Me.BtnSalidas.Location = New System.Drawing.Point(0, 347)
         Me.BtnSalidas.Name = "BtnSalidas"
-        Me.BtnSalidas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnSalidas.Size = New System.Drawing.Size(215, 47)
         Me.BtnSalidas.TabIndex = 7
         Me.BtnSalidas.Text = "Salidas"
         Me.BtnSalidas.UseVisualStyleBackColor = False
@@ -135,9 +122,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnEntradas.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnEntradas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnEntradas.Location = New System.Drawing.Point(0, 189)
+        Me.BtnEntradas.Location = New System.Drawing.Point(0, 300)
         Me.BtnEntradas.Name = "BtnEntradas"
-        Me.BtnEntradas.Size = New System.Drawing.Size(188, 23)
+        Me.BtnEntradas.Size = New System.Drawing.Size(215, 47)
         Me.BtnEntradas.TabIndex = 6
         Me.BtnEntradas.Text = "Entradas"
         Me.BtnEntradas.UseVisualStyleBackColor = False
@@ -146,9 +133,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnPartes.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnPartes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnPartes.Location = New System.Drawing.Point(0, 166)
+        Me.BtnPartes.Location = New System.Drawing.Point(0, 253)
         Me.BtnPartes.Name = "BtnPartes"
-        Me.BtnPartes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnPartes.Size = New System.Drawing.Size(215, 47)
         Me.BtnPartes.TabIndex = 5
         Me.BtnPartes.Text = "Partes"
         Me.BtnPartes.UseVisualStyleBackColor = False
@@ -157,9 +144,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnAlmacenes.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnAlmacenes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnAlmacenes.Location = New System.Drawing.Point(0, 143)
+        Me.BtnAlmacenes.Location = New System.Drawing.Point(0, 206)
         Me.BtnAlmacenes.Name = "BtnAlmacenes"
-        Me.BtnAlmacenes.Size = New System.Drawing.Size(188, 23)
+        Me.BtnAlmacenes.Size = New System.Drawing.Size(215, 47)
         Me.BtnAlmacenes.TabIndex = 4
         Me.BtnAlmacenes.Text = "Almacenes"
         Me.BtnAlmacenes.UseVisualStyleBackColor = False
@@ -168,9 +155,9 @@ Partial Class MenuPrincipal
         '
         Me.BtnRegistro.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.BtnRegistro.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnRegistro.Location = New System.Drawing.Point(0, 120)
+        Me.BtnRegistro.Location = New System.Drawing.Point(0, 159)
         Me.BtnRegistro.Name = "BtnRegistro"
-        Me.BtnRegistro.Size = New System.Drawing.Size(188, 23)
+        Me.BtnRegistro.Size = New System.Drawing.Size(215, 47)
         Me.BtnRegistro.TabIndex = 3
         Me.BtnRegistro.Text = "Registro"
         Me.BtnRegistro.UseVisualStyleBackColor = False
@@ -178,7 +165,7 @@ Partial Class MenuPrincipal
         'LblAlmacen
         '
         Me.LblAlmacen.Dock = System.Windows.Forms.DockStyle.Top
-        Me.LblAlmacen.Location = New System.Drawing.Point(0, 80)
+        Me.LblAlmacen.Location = New System.Drawing.Point(0, 106)
         Me.LblAlmacen.Name = "LblAlmacen"
         Me.LblAlmacen.Size = New System.Drawing.Size(215, 53)
         Me.LblAlmacen.TabIndex = 2
@@ -188,7 +175,7 @@ Partial Class MenuPrincipal
         'LblSucursal
         '
         Me.LblSucursal.Dock = System.Windows.Forms.DockStyle.Top
-        Me.LblSucursal.Location = New System.Drawing.Point(0, 40)
+        Me.LblSucursal.Location = New System.Drawing.Point(0, 53)
         Me.LblSucursal.Name = "LblSucursal"
         Me.LblSucursal.Size = New System.Drawing.Size(215, 53)
         Me.LblSucursal.TabIndex = 1
@@ -231,7 +218,6 @@ Partial Class MenuPrincipal
     Friend WithEvents LblUsuario As Label
     Friend WithEvents BtnAdministrador As Button
     Friend WithEvents BtnPassword As Button
-    Friend WithEvents BtnMovimientos As Button
     Friend WithEvents BtnReportes As Button
     Friend WithEvents BtnSalidas As Button
     Friend WithEvents BtnCerrar As Button

@@ -92,7 +92,7 @@ Partial Class ModificarAlm
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(701, 13)
+        Me.Panel1.Size = New System.Drawing.Size(718, 13)
         Me.Panel1.TabIndex = 3
         '
         'Panel3
@@ -100,23 +100,23 @@ Partial Class ModificarAlm
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel3.Location = New System.Drawing.Point(0, 13)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(11, 343)
+        Me.Panel3.Size = New System.Drawing.Size(11, 337)
         Me.Panel3.TabIndex = 4
         '
         'Panel4
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel4.Location = New System.Drawing.Point(691, 13)
+        Me.Panel4.Location = New System.Drawing.Point(708, 13)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(10, 343)
+        Me.Panel4.Size = New System.Drawing.Size(10, 337)
         Me.Panel4.TabIndex = 5
         '
         'Panel5
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel5.Location = New System.Drawing.Point(11, 346)
+        Me.Panel5.Location = New System.Drawing.Point(11, 340)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(680, 10)
+        Me.Panel5.Size = New System.Drawing.Size(697, 10)
         Me.Panel5.TabIndex = 6
         '
         'Panel2
@@ -125,7 +125,7 @@ Partial Class ModificarAlm
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(11, 13)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(680, 34)
+        Me.Panel2.Size = New System.Drawing.Size(697, 34)
         Me.Panel2.TabIndex = 7
         '
         'Panel7
@@ -134,7 +134,7 @@ Partial Class ModificarAlm
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel7.Location = New System.Drawing.Point(0, 0)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(680, 30)
+        Me.Panel7.Size = New System.Drawing.Size(697, 30)
         Me.Panel7.TabIndex = 1
         '
         'Label5
@@ -144,7 +144,7 @@ Partial Class ModificarAlm
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label5.Location = New System.Drawing.Point(0, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(680, 30)
+        Me.Label5.Size = New System.Drawing.Size(697, 30)
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Modificar Almacen"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -155,7 +155,7 @@ Partial Class ModificarAlm
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel6.Location = New System.Drawing.Point(11, 47)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(680, 172)
+        Me.Panel6.Size = New System.Drawing.Size(697, 172)
         Me.Panel6.TabIndex = 8
         '
         'GpoAlmacen
@@ -167,7 +167,7 @@ Partial Class ModificarAlm
         Me.GpoAlmacen.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GpoAlmacen.Location = New System.Drawing.Point(0, 0)
         Me.GpoAlmacen.Name = "GpoAlmacen"
-        Me.GpoAlmacen.Size = New System.Drawing.Size(680, 172)
+        Me.GpoAlmacen.Size = New System.Drawing.Size(697, 172)
         Me.GpoAlmacen.TabIndex = 1
         Me.GpoAlmacen.TabStop = False
         '
@@ -180,7 +180,7 @@ Partial Class ModificarAlm
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel11.Location = New System.Drawing.Point(3, 129)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(674, 32)
+        Me.Panel11.Size = New System.Drawing.Size(691, 32)
         Me.Panel11.TabIndex = 3
         '
         'BtnAgregarRack
@@ -242,7 +242,7 @@ Partial Class ModificarAlm
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel10.Location = New System.Drawing.Point(3, 97)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(674, 32)
+        Me.Panel10.Size = New System.Drawing.Size(691, 32)
         Me.Panel10.TabIndex = 2
         '
         'BtnAgregarSuc
@@ -304,7 +304,7 @@ Partial Class ModificarAlm
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel9.Location = New System.Drawing.Point(3, 60)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(674, 37)
+        Me.Panel9.Size = New System.Drawing.Size(691, 37)
         Me.Panel9.TabIndex = 1
         '
         'BtnAgregarDesc
@@ -342,7 +342,7 @@ Partial Class ModificarAlm
         Me.BtnSiguiente.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnSiguiente.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnSiguiente.ForeColor = System.Drawing.Color.White
-        Me.BtnSiguiente.Location = New System.Drawing.Point(567, 0)
+        Me.BtnSiguiente.Location = New System.Drawing.Point(584, 0)
         Me.BtnSiguiente.Name = "BtnSiguiente"
         Me.BtnSiguiente.Size = New System.Drawing.Size(107, 37)
         Me.BtnSiguiente.TabIndex = 6
@@ -380,7 +380,7 @@ Partial Class ModificarAlm
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel8.Location = New System.Drawing.Point(3, 23)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(674, 37)
+        Me.Panel8.Size = New System.Drawing.Size(691, 37)
         Me.Panel8.TabIndex = 0
         '
         'BtnAgregarAlm
@@ -418,7 +418,7 @@ Partial Class ModificarAlm
         Me.BtnGuardarAlmacen.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnGuardarAlmacen.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnGuardarAlmacen.ForeColor = System.Drawing.Color.White
-        Me.BtnGuardarAlmacen.Location = New System.Drawing.Point(567, 0)
+        Me.BtnGuardarAlmacen.Location = New System.Drawing.Point(584, 0)
         Me.BtnGuardarAlmacen.Name = "BtnGuardarAlmacen"
         Me.BtnGuardarAlmacen.Size = New System.Drawing.Size(107, 37)
         Me.BtnGuardarAlmacen.TabIndex = 2
@@ -453,7 +453,7 @@ Partial Class ModificarAlm
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel12.Location = New System.Drawing.Point(11, 219)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(680, 143)
+        Me.Panel12.Size = New System.Drawing.Size(697, 143)
         Me.Panel12.TabIndex = 9
         '
         'GpoCajones
@@ -464,7 +464,7 @@ Partial Class ModificarAlm
         Me.GpoCajones.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GpoCajones.Location = New System.Drawing.Point(0, 0)
         Me.GpoCajones.Name = "GpoCajones"
-        Me.GpoCajones.Size = New System.Drawing.Size(680, 143)
+        Me.GpoCajones.Size = New System.Drawing.Size(697, 143)
         Me.GpoCajones.TabIndex = 13
         Me.GpoCajones.TabStop = False
         '
@@ -477,7 +477,7 @@ Partial Class ModificarAlm
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel18.Location = New System.Drawing.Point(3, 87)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(674, 32)
+        Me.Panel18.Size = New System.Drawing.Size(691, 32)
         Me.Panel18.TabIndex = 3
         '
         'BtnAgregarCajon
@@ -540,7 +540,7 @@ Partial Class ModificarAlm
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel14.Location = New System.Drawing.Point(3, 55)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(674, 32)
+        Me.Panel14.Size = New System.Drawing.Size(691, 32)
         Me.Panel14.TabIndex = 2
         '
         'BtnTerminar
@@ -550,7 +550,7 @@ Partial Class ModificarAlm
         Me.BtnTerminar.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnTerminar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnTerminar.ForeColor = System.Drawing.Color.White
-        Me.BtnTerminar.Location = New System.Drawing.Point(567, 0)
+        Me.BtnTerminar.Location = New System.Drawing.Point(584, 0)
         Me.BtnTerminar.Name = "BtnTerminar"
         Me.BtnTerminar.Size = New System.Drawing.Size(107, 32)
         Me.BtnTerminar.TabIndex = 7
@@ -616,7 +616,7 @@ Partial Class ModificarAlm
         Me.Panel15.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel15.Location = New System.Drawing.Point(3, 23)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(674, 32)
+        Me.Panel15.Size = New System.Drawing.Size(691, 32)
         Me.Panel15.TabIndex = 1
         '
         'BtnGuardarCajones
@@ -626,7 +626,7 @@ Partial Class ModificarAlm
         Me.BtnGuardarCajones.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnGuardarCajones.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnGuardarCajones.ForeColor = System.Drawing.Color.White
-        Me.BtnGuardarCajones.Location = New System.Drawing.Point(567, 0)
+        Me.BtnGuardarCajones.Location = New System.Drawing.Point(584, 0)
         Me.BtnGuardarCajones.Name = "BtnGuardarCajones"
         Me.BtnGuardarCajones.Size = New System.Drawing.Size(107, 32)
         Me.BtnGuardarCajones.TabIndex = 9
@@ -686,7 +686,7 @@ Partial Class ModificarAlm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(701, 356)
+        Me.ClientSize = New System.Drawing.Size(718, 350)
         Me.Controls.Add(Me.Panel12)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel2)
