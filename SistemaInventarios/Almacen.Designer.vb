@@ -28,19 +28,20 @@ Partial Class Almacen
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.CmbIdAlmacen = New System.Windows.Forms.ComboBox()
         Me.BtnModificar = New System.Windows.Forms.Button()
         Me.BtnNuevo = New System.Windows.Forms.Button()
         Me.PnlAgregarAlmacen = New System.Windows.Forms.Panel()
         Me.GpoAlmacen = New System.Windows.Forms.GroupBox()
         Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.CmbRacks = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.CmbSucursal = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.BtnSiguienteAlmacen = New System.Windows.Forms.Button()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.BtnSiguiente = New System.Windows.Forms.Button()
+        Me.TxtDescripcion = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.BtnGuardarAlmacen = New System.Windows.Forms.Button()
@@ -49,7 +50,6 @@ Partial Class Almacen
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Panel14 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Panel6.SuspendLayout()
         Me.PnlAgregarAlmacen.SuspendLayout()
         Me.GpoAlmacen.SuspendLayout()
@@ -69,37 +69,47 @@ Partial Class Almacen
         'Panel3
         '
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel3.Location = New System.Drawing.Point(0, 21)
+        Me.Panel3.Location = New System.Drawing.Point(0, 10)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(11, 458)
+        Me.Panel3.Size = New System.Drawing.Size(11, 449)
         Me.Panel3.TabIndex = 3
         '
         'Panel4
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel4.Location = New System.Drawing.Point(1107, 21)
+        Me.Panel4.Location = New System.Drawing.Point(751, 10)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(10, 458)
+        Me.Panel4.Size = New System.Drawing.Size(10, 449)
         Me.Panel4.TabIndex = 4
         '
         'Panel5
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel5.Location = New System.Drawing.Point(11, 469)
+        Me.Panel5.Location = New System.Drawing.Point(11, 449)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(1096, 10)
+        Me.Panel5.Size = New System.Drawing.Size(740, 10)
         Me.Panel5.TabIndex = 5
         '
         'Panel6
         '
-        Me.Panel6.Controls.Add(Me.ComboBox3)
+        Me.Panel6.Controls.Add(Me.CmbIdAlmacen)
         Me.Panel6.Controls.Add(Me.BtnModificar)
         Me.Panel6.Controls.Add(Me.BtnNuevo)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel6.Location = New System.Drawing.Point(11, 21)
+        Me.Panel6.Location = New System.Drawing.Point(11, 10)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(1096, 45)
+        Me.Panel6.Size = New System.Drawing.Size(740, 39)
         Me.Panel6.TabIndex = 6
+        '
+        'CmbIdAlmacen
+        '
+        Me.CmbIdAlmacen.Dock = System.Windows.Forms.DockStyle.Right
+        Me.CmbIdAlmacen.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.CmbIdAlmacen.FormattingEnabled = True
+        Me.CmbIdAlmacen.Location = New System.Drawing.Point(303, 0)
+        Me.CmbIdAlmacen.Name = "CmbIdAlmacen"
+        Me.CmbIdAlmacen.Size = New System.Drawing.Size(218, 39)
+        Me.CmbIdAlmacen.TabIndex = 3
         '
         'BtnModificar
         '
@@ -108,9 +118,9 @@ Partial Class Almacen
         Me.BtnModificar.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnModificar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnModificar.ForeColor = System.Drawing.Color.Transparent
-        Me.BtnModificar.Location = New System.Drawing.Point(877, 0)
+        Me.BtnModificar.Location = New System.Drawing.Point(521, 0)
         Me.BtnModificar.Name = "BtnModificar"
-        Me.BtnModificar.Size = New System.Drawing.Size(107, 45)
+        Me.BtnModificar.Size = New System.Drawing.Size(107, 39)
         Me.BtnModificar.TabIndex = 1
         Me.BtnModificar.Text = "Modificiar"
         Me.BtnModificar.UseVisualStyleBackColor = False
@@ -122,9 +132,9 @@ Partial Class Almacen
         Me.BtnNuevo.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnNuevo.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnNuevo.ForeColor = System.Drawing.Color.White
-        Me.BtnNuevo.Location = New System.Drawing.Point(984, 0)
+        Me.BtnNuevo.Location = New System.Drawing.Point(628, 0)
         Me.BtnNuevo.Name = "BtnNuevo"
-        Me.BtnNuevo.Size = New System.Drawing.Size(112, 45)
+        Me.BtnNuevo.Size = New System.Drawing.Size(112, 39)
         Me.BtnNuevo.TabIndex = 0
         Me.BtnNuevo.Text = "Nuevo"
         Me.BtnNuevo.UseVisualStyleBackColor = False
@@ -133,9 +143,9 @@ Partial Class Almacen
         '
         Me.PnlAgregarAlmacen.Controls.Add(Me.GpoAlmacen)
         Me.PnlAgregarAlmacen.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlAgregarAlmacen.Location = New System.Drawing.Point(11, 66)
+        Me.PnlAgregarAlmacen.Location = New System.Drawing.Point(11, 49)
         Me.PnlAgregarAlmacen.Name = "PnlAgregarAlmacen"
-        Me.PnlAgregarAlmacen.Size = New System.Drawing.Size(1096, 165)
+        Me.PnlAgregarAlmacen.Size = New System.Drawing.Size(740, 165)
         Me.PnlAgregarAlmacen.TabIndex = 7
         '
         'GpoAlmacen
@@ -147,29 +157,29 @@ Partial Class Almacen
         Me.GpoAlmacen.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GpoAlmacen.Location = New System.Drawing.Point(0, 0)
         Me.GpoAlmacen.Name = "GpoAlmacen"
-        Me.GpoAlmacen.Size = New System.Drawing.Size(1096, 165)
+        Me.GpoAlmacen.Size = New System.Drawing.Size(740, 165)
         Me.GpoAlmacen.TabIndex = 0
         Me.GpoAlmacen.TabStop = False
         '
         'Panel11
         '
-        Me.Panel11.Controls.Add(Me.ComboBox2)
+        Me.Panel11.Controls.Add(Me.CmbRacks)
         Me.Panel11.Controls.Add(Me.Label4)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel11.Location = New System.Drawing.Point(3, 124)
+        Me.Panel11.Location = New System.Drawing.Point(3, 129)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(1090, 32)
+        Me.Panel11.Size = New System.Drawing.Size(734, 32)
         Me.Panel11.TabIndex = 3
         '
-        'ComboBox2
+        'CmbRacks
         '
-        Me.ComboBox2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox2.Location = New System.Drawing.Point(109, 0)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(218, 28)
-        Me.ComboBox2.TabIndex = 2
+        Me.CmbRacks.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbRacks.FormattingEnabled = True
+        Me.CmbRacks.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        Me.CmbRacks.Location = New System.Drawing.Point(109, 0)
+        Me.CmbRacks.Name = "CmbRacks"
+        Me.CmbRacks.Size = New System.Drawing.Size(218, 28)
+        Me.CmbRacks.TabIndex = 2
         '
         'Label4
         '
@@ -185,22 +195,22 @@ Partial Class Almacen
         '
         'Panel10
         '
-        Me.Panel10.Controls.Add(Me.ComboBox1)
+        Me.Panel10.Controls.Add(Me.CmbSucursal)
         Me.Panel10.Controls.Add(Me.Label3)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel10.Location = New System.Drawing.Point(3, 92)
+        Me.Panel10.Location = New System.Drawing.Point(3, 97)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(1090, 32)
+        Me.Panel10.Size = New System.Drawing.Size(734, 32)
         Me.Panel10.TabIndex = 2
         '
-        'ComboBox1
+        'CmbSucursal
         '
-        Me.ComboBox1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(109, 0)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(218, 28)
-        Me.ComboBox1.TabIndex = 2
+        Me.CmbSucursal.Dock = System.Windows.Forms.DockStyle.Left
+        Me.CmbSucursal.FormattingEnabled = True
+        Me.CmbSucursal.Location = New System.Drawing.Point(109, 0)
+        Me.CmbSucursal.Name = "CmbSucursal"
+        Me.CmbSucursal.Size = New System.Drawing.Size(218, 28)
+        Me.CmbSucursal.TabIndex = 2
         '
         'Label3
         '
@@ -216,37 +226,37 @@ Partial Class Almacen
         '
         'Panel9
         '
-        Me.Panel9.Controls.Add(Me.BtnSiguienteAlmacen)
-        Me.Panel9.Controls.Add(Me.TextBox2)
+        Me.Panel9.Controls.Add(Me.BtnSiguiente)
+        Me.Panel9.Controls.Add(Me.TxtDescripcion)
         Me.Panel9.Controls.Add(Me.Label2)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel9.Location = New System.Drawing.Point(3, 60)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(1090, 32)
+        Me.Panel9.Size = New System.Drawing.Size(734, 37)
         Me.Panel9.TabIndex = 1
         '
-        'BtnSiguienteAlmacen
+        'BtnSiguiente
         '
-        Me.BtnSiguienteAlmacen.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BtnSiguienteAlmacen.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.BtnSiguienteAlmacen.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BtnSiguienteAlmacen.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnSiguienteAlmacen.ForeColor = System.Drawing.Color.White
-        Me.BtnSiguienteAlmacen.Location = New System.Drawing.Point(983, 0)
-        Me.BtnSiguienteAlmacen.Name = "BtnSiguienteAlmacen"
-        Me.BtnSiguienteAlmacen.Size = New System.Drawing.Size(107, 32)
-        Me.BtnSiguienteAlmacen.TabIndex = 6
-        Me.BtnSiguienteAlmacen.Text = "Siguiente"
-        Me.BtnSiguienteAlmacen.UseVisualStyleBackColor = False
+        Me.BtnSiguiente.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BtnSiguiente.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.BtnSiguiente.Dock = System.Windows.Forms.DockStyle.Right
+        Me.BtnSiguiente.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnSiguiente.ForeColor = System.Drawing.Color.White
+        Me.BtnSiguiente.Location = New System.Drawing.Point(627, 0)
+        Me.BtnSiguiente.Name = "BtnSiguiente"
+        Me.BtnSiguiente.Size = New System.Drawing.Size(107, 37)
+        Me.BtnSiguiente.TabIndex = 6
+        Me.BtnSiguiente.Text = "Siguiente"
+        Me.BtnSiguiente.UseVisualStyleBackColor = False
         '
-        'TextBox2
+        'TxtDescripcion
         '
-        Me.TextBox2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(109, 0)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(218, 34)
-        Me.TextBox2.TabIndex = 1
+        Me.TxtDescripcion.Dock = System.Windows.Forms.DockStyle.Left
+        Me.TxtDescripcion.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TxtDescripcion.Location = New System.Drawing.Point(109, 0)
+        Me.TxtDescripcion.Name = "TxtDescripcion"
+        Me.TxtDescripcion.Size = New System.Drawing.Size(218, 34)
+        Me.TxtDescripcion.TabIndex = 1
         '
         'Label2
         '
@@ -255,7 +265,7 @@ Partial Class Almacen
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(109, 32)
+        Me.Label2.Size = New System.Drawing.Size(109, 37)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Descripcion"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -268,7 +278,7 @@ Partial Class Almacen
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel8.Location = New System.Drawing.Point(3, 23)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(1090, 37)
+        Me.Panel8.Size = New System.Drawing.Size(734, 37)
         Me.Panel8.TabIndex = 0
         '
         'BtnGuardarAlmacen
@@ -278,7 +288,7 @@ Partial Class Almacen
         Me.BtnGuardarAlmacen.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnGuardarAlmacen.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnGuardarAlmacen.ForeColor = System.Drawing.Color.White
-        Me.BtnGuardarAlmacen.Location = New System.Drawing.Point(983, 0)
+        Me.BtnGuardarAlmacen.Location = New System.Drawing.Point(627, 0)
         Me.BtnGuardarAlmacen.Name = "BtnGuardarAlmacen"
         Me.BtnGuardarAlmacen.Size = New System.Drawing.Size(107, 37)
         Me.BtnGuardarAlmacen.TabIndex = 2
@@ -311,9 +321,9 @@ Partial Class Almacen
         '
         Me.Panel12.Controls.Add(Me.Panel14)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel12.Location = New System.Drawing.Point(11, 231)
+        Me.Panel12.Location = New System.Drawing.Point(11, 214)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(1096, 226)
+        Me.Panel12.Size = New System.Drawing.Size(740, 226)
         Me.Panel12.TabIndex = 10
         '
         'Panel14
@@ -321,7 +331,7 @@ Partial Class Almacen
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel14.Location = New System.Drawing.Point(0, 0)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(1096, 10)
+        Me.Panel14.Size = New System.Drawing.Size(740, 10)
         Me.Panel14.TabIndex = 3
         '
         'Panel1
@@ -329,23 +339,14 @@ Partial Class Almacen
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1117, 21)
+        Me.Panel1.Size = New System.Drawing.Size(761, 10)
         Me.Panel1.TabIndex = 2
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(659, 0)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(218, 28)
-        Me.ComboBox3.TabIndex = 3
         '
         'Almacen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1117, 479)
+        Me.ClientSize = New System.Drawing.Size(761, 459)
         Me.Controls.Add(Me.Panel12)
         Me.Controls.Add(Me.PnlAgregarAlmacen)
         Me.Controls.Add(Me.Panel6)
@@ -382,19 +383,19 @@ Partial Class Almacen
     Friend WithEvents Panel8 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel11 As Panel
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents CmbRacks As ComboBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel10 As Panel
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents CmbSucursal As ComboBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel9 As Panel
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TxtDescripcion As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents TxtIdAlmacen As TextBox
     Friend WithEvents BtnGuardarAlmacen As Button
-    Friend WithEvents BtnSiguienteAlmacen As Button
+    Friend WithEvents BtnSiguiente As Button
     Friend WithEvents Panel12 As Panel
     Friend WithEvents Panel14 As Panel
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents CmbIdAlmacen As ComboBox
 End Class
