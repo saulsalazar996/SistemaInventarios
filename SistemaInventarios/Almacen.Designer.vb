@@ -49,6 +49,7 @@ Partial Class Almacen
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Panel14 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Panel6.SuspendLayout()
         Me.PnlAgregarAlmacen.SuspendLayout()
         Me.GpoAlmacen.SuspendLayout()
@@ -91,6 +92,7 @@ Partial Class Almacen
         '
         'Panel6
         '
+        Me.Panel6.Controls.Add(Me.ComboBox3)
         Me.Panel6.Controls.Add(Me.BtnModificar)
         Me.Panel6.Controls.Add(Me.BtnNuevo)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
@@ -330,6 +332,15 @@ Partial Class Almacen
         Me.Panel1.Size = New System.Drawing.Size(1117, 21)
         Me.Panel1.TabIndex = 2
         '
+        'ComboBox3
+        '
+        Me.ComboBox3.Dock = System.Windows.Forms.DockStyle.Right
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(659, 0)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(218, 28)
+        Me.ComboBox3.TabIndex = 3
+        '
         'Almacen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
@@ -385,4 +396,5 @@ Partial Class Almacen
     Friend WithEvents Panel12 As Panel
     Friend WithEvents Panel14 As Panel
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents ComboBox3 As ComboBox
 End Class
