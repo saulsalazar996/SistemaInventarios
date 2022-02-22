@@ -12,15 +12,9 @@
     End Sub
 
     Private Sub BtnIngresa_Click(sender As Object, e As EventArgs) Handles BtnIngresa.Click
-        Call conectarBD()
-        If TxtUsuario.Text <> "" And TxtPass.Text <> "" Then
+        Call VerificacionDatos(TxtUsuario.Text, TxtPass.Text)
 
 
-
-        Else
-            MsgBox("Falta ingresar usuario o contraseña", vbCritical)
-
-        End If
 
     End Sub
 End Class

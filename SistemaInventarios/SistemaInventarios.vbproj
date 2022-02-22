@@ -6,6 +6,8 @@
     <RootNamespace>SistemaInventarios</RootNamespace>
     <StartupObject>SistemaInventarios.Login</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
     <Compile Update="My Project\Resources.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -35,7 +42,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controladores\" />
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

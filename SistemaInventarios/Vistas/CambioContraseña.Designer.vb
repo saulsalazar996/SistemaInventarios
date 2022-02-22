@@ -40,9 +40,10 @@ Partial Class CambioContraseña
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(14, 16)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(385, 50)
+        Me.PictureBox1.Size = New System.Drawing.Size(440, 67)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
@@ -50,7 +51,8 @@ Partial Class CambioContraseña
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(11, 98)
+        Me.PictureBox2.Location = New System.Drawing.Point(13, 131)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(385, 50)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -62,16 +64,17 @@ Partial Class CambioContraseña
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Britannic Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label1.Location = New System.Drawing.Point(12, 151)
+        Me.Label1.Location = New System.Drawing.Point(14, 201)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(211, 23)
+        Me.Label1.Size = New System.Drawing.Size(273, 30)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Confirma contraseña:"
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(12, 177)
+        Me.PictureBox3.Location = New System.Drawing.Point(14, 236)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(385, 50)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -83,9 +86,9 @@ Partial Class CambioContraseña
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Britannic Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label2.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label2.Location = New System.Drawing.Point(12, 72)
+        Me.Label2.Location = New System.Drawing.Point(14, 96)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(180, 23)
+        Me.Label2.Size = New System.Drawing.Size(232, 30)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Nueva contraseña:"
         '
@@ -96,9 +99,10 @@ Partial Class CambioContraseña
         Me.BtnRegistra.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnRegistra.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnRegistra.ForeColor = System.Drawing.Color.White
-        Me.BtnRegistra.Location = New System.Drawing.Point(110, 246)
+        Me.BtnRegistra.Location = New System.Drawing.Point(126, 328)
+        Me.BtnRegistra.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnRegistra.Name = "BtnRegistra"
-        Me.BtnRegistra.Size = New System.Drawing.Size(202, 28)
+        Me.BtnRegistra.Size = New System.Drawing.Size(231, 37)
         Me.BtnRegistra.TabIndex = 9
         Me.BtnRegistra.Text = "Registrar"
         Me.BtnRegistra.UseVisualStyleBackColor = False
@@ -108,9 +112,10 @@ Partial Class CambioContraseña
         Me.TxtPass.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TxtPass.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TxtPass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.TxtPass.Location = New System.Drawing.Point(70, 115)
+        Me.TxtPass.Location = New System.Drawing.Point(80, 153)
+        Me.TxtPass.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TxtPass.Name = "TxtPass"
-        Me.TxtPass.Size = New System.Drawing.Size(302, 18)
+        Me.TxtPass.Size = New System.Drawing.Size(345, 23)
         Me.TxtPass.TabIndex = 11
         Me.TxtPass.Text = "Contraseña"
         Me.TxtPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -120,9 +125,10 @@ Partial Class CambioContraseña
         Me.TxtConfPass.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TxtConfPass.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TxtConfPass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.TxtConfPass.Location = New System.Drawing.Point(70, 194)
+        Me.TxtConfPass.Location = New System.Drawing.Point(80, 259)
+        Me.TxtConfPass.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TxtConfPass.Name = "TxtConfPass"
-        Me.TxtConfPass.Size = New System.Drawing.Size(302, 18)
+        Me.TxtConfPass.Size = New System.Drawing.Size(345, 23)
         Me.TxtConfPass.TabIndex = 12
         Me.TxtConfPass.Text = "Contraseña"
         Me.TxtConfPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -132,19 +138,19 @@ Partial Class CambioContraseña
         Me.LblUsuario.BackColor = System.Drawing.Color.White
         Me.LblUsuario.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.LblUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.LblUsuario.Location = New System.Drawing.Point(70, 26)
+        Me.LblUsuario.Location = New System.Drawing.Point(80, 35)
         Me.LblUsuario.Name = "LblUsuario"
-        Me.LblUsuario.Size = New System.Drawing.Size(302, 23)
+        Me.LblUsuario.Size = New System.Drawing.Size(345, 31)
         Me.LblUsuario.TabIndex = 13
         Me.LblUsuario.Text = "Usuario"
         Me.LblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'CambioContraseña
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(408, 306)
+        Me.ClientSize = New System.Drawing.Size(466, 408)
         Me.Controls.Add(Me.LblUsuario)
         Me.Controls.Add(Me.TxtConfPass)
         Me.Controls.Add(Me.TxtPass)
@@ -155,6 +161,7 @@ Partial Class CambioContraseña
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "CambioContraseña"
         Me.Text = "CambioContraseña"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

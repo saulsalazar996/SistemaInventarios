@@ -23,6 +23,7 @@ Partial Class Salidas
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -58,7 +59,6 @@ Partial Class Salidas
         Me.BtnNuevo = New System.Windows.Forms.Button()
         Me.TxtIdMovSal = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel15.SuspendLayout()
@@ -82,6 +82,18 @@ Partial Class Salidas
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(828, 39)
         Me.Panel1.TabIndex = 4
+        '
+        'Label10
+        '
+        Me.Label10.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label10.Font = New System.Drawing.Font("Britannic Bold", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
+        Me.Label10.Location = New System.Drawing.Point(0, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(828, 37)
+        Me.Label10.TabIndex = 1
+        Me.Label10.Text = "Salidas Articulos"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Panel4
         '
@@ -468,18 +480,6 @@ Partial Class Salidas
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "IdMovSal"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label10
-        '
-        Me.Label10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label10.Font = New System.Drawing.Font("Britannic Bold", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(0, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(828, 37)
-        Me.Label10.TabIndex = 1
-        Me.Label10.Text = "Salidas Articulos"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Salidas
         '
