@@ -69,25 +69,28 @@ Partial Class Almacen
         'Panel3
         '
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel3.Location = New System.Drawing.Point(0, 10)
+        Me.Panel3.Location = New System.Drawing.Point(0, 8)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(11, 449)
+        Me.Panel3.Size = New System.Drawing.Size(10, 336)
         Me.Panel3.TabIndex = 3
         '
         'Panel4
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel4.Location = New System.Drawing.Point(751, 10)
+        Me.Panel4.Location = New System.Drawing.Point(657, 8)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(10, 449)
+        Me.Panel4.Size = New System.Drawing.Size(9, 336)
         Me.Panel4.TabIndex = 4
         '
         'Panel5
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel5.Location = New System.Drawing.Point(11, 449)
+        Me.Panel5.Location = New System.Drawing.Point(10, 336)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(740, 10)
+        Me.Panel5.Size = New System.Drawing.Size(647, 8)
         Me.Panel5.TabIndex = 5
         '
         'Panel6
@@ -96,9 +99,10 @@ Partial Class Almacen
         Me.Panel6.Controls.Add(Me.BtnModificar)
         Me.Panel6.Controls.Add(Me.BtnNuevo)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel6.Location = New System.Drawing.Point(11, 10)
+        Me.Panel6.Location = New System.Drawing.Point(10, 8)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(740, 39)
+        Me.Panel6.Size = New System.Drawing.Size(647, 29)
         Me.Panel6.TabIndex = 6
         '
         'CmbIdAlmacen
@@ -106,9 +110,10 @@ Partial Class Almacen
         Me.CmbIdAlmacen.Dock = System.Windows.Forms.DockStyle.Right
         Me.CmbIdAlmacen.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.CmbIdAlmacen.FormattingEnabled = True
-        Me.CmbIdAlmacen.Location = New System.Drawing.Point(303, 0)
+        Me.CmbIdAlmacen.Location = New System.Drawing.Point(264, 0)
+        Me.CmbIdAlmacen.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CmbIdAlmacen.Name = "CmbIdAlmacen"
-        Me.CmbIdAlmacen.Size = New System.Drawing.Size(218, 39)
+        Me.CmbIdAlmacen.Size = New System.Drawing.Size(191, 33)
         Me.CmbIdAlmacen.TabIndex = 3
         '
         'BtnModificar
@@ -118,9 +123,10 @@ Partial Class Almacen
         Me.BtnModificar.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnModificar.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnModificar.ForeColor = System.Drawing.Color.Transparent
-        Me.BtnModificar.Location = New System.Drawing.Point(521, 0)
+        Me.BtnModificar.Location = New System.Drawing.Point(455, 0)
+        Me.BtnModificar.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnModificar.Name = "BtnModificar"
-        Me.BtnModificar.Size = New System.Drawing.Size(107, 39)
+        Me.BtnModificar.Size = New System.Drawing.Size(94, 29)
         Me.BtnModificar.TabIndex = 1
         Me.BtnModificar.Text = "Modificiar"
         Me.BtnModificar.UseVisualStyleBackColor = False
@@ -132,9 +138,10 @@ Partial Class Almacen
         Me.BtnNuevo.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnNuevo.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnNuevo.ForeColor = System.Drawing.Color.White
-        Me.BtnNuevo.Location = New System.Drawing.Point(628, 0)
+        Me.BtnNuevo.Location = New System.Drawing.Point(549, 0)
+        Me.BtnNuevo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnNuevo.Name = "BtnNuevo"
-        Me.BtnNuevo.Size = New System.Drawing.Size(112, 39)
+        Me.BtnNuevo.Size = New System.Drawing.Size(98, 29)
         Me.BtnNuevo.TabIndex = 0
         Me.BtnNuevo.Text = "Nuevo"
         Me.BtnNuevo.UseVisualStyleBackColor = False
@@ -143,9 +150,10 @@ Partial Class Almacen
         '
         Me.PnlAgregarAlmacen.Controls.Add(Me.GpoAlmacen)
         Me.PnlAgregarAlmacen.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlAgregarAlmacen.Location = New System.Drawing.Point(11, 49)
+        Me.PnlAgregarAlmacen.Location = New System.Drawing.Point(10, 37)
+        Me.PnlAgregarAlmacen.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PnlAgregarAlmacen.Name = "PnlAgregarAlmacen"
-        Me.PnlAgregarAlmacen.Size = New System.Drawing.Size(740, 165)
+        Me.PnlAgregarAlmacen.Size = New System.Drawing.Size(647, 124)
         Me.PnlAgregarAlmacen.TabIndex = 7
         '
         'GpoAlmacen
@@ -156,8 +164,10 @@ Partial Class Almacen
         Me.GpoAlmacen.Controls.Add(Me.Panel8)
         Me.GpoAlmacen.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GpoAlmacen.Location = New System.Drawing.Point(0, 0)
+        Me.GpoAlmacen.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GpoAlmacen.Name = "GpoAlmacen"
-        Me.GpoAlmacen.Size = New System.Drawing.Size(740, 165)
+        Me.GpoAlmacen.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GpoAlmacen.Size = New System.Drawing.Size(647, 124)
         Me.GpoAlmacen.TabIndex = 0
         Me.GpoAlmacen.TabStop = False
         '
@@ -166,9 +176,10 @@ Partial Class Almacen
         Me.Panel11.Controls.Add(Me.CmbRacks)
         Me.Panel11.Controls.Add(Me.Label4)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel11.Location = New System.Drawing.Point(3, 129)
+        Me.Panel11.Location = New System.Drawing.Point(3, 98)
+        Me.Panel11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(734, 32)
+        Me.Panel11.Size = New System.Drawing.Size(641, 24)
         Me.Panel11.TabIndex = 3
         '
         'CmbRacks
@@ -176,9 +187,10 @@ Partial Class Almacen
         Me.CmbRacks.Dock = System.Windows.Forms.DockStyle.Left
         Me.CmbRacks.FormattingEnabled = True
         Me.CmbRacks.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.CmbRacks.Location = New System.Drawing.Point(109, 0)
+        Me.CmbRacks.Location = New System.Drawing.Point(95, 0)
+        Me.CmbRacks.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CmbRacks.Name = "CmbRacks"
-        Me.CmbRacks.Size = New System.Drawing.Size(218, 28)
+        Me.CmbRacks.Size = New System.Drawing.Size(191, 23)
         Me.CmbRacks.TabIndex = 2
         '
         'Label4
@@ -188,7 +200,7 @@ Partial Class Almacen
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(0, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(109, 32)
+        Me.Label4.Size = New System.Drawing.Size(95, 24)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Racks"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -198,18 +210,20 @@ Partial Class Almacen
         Me.Panel10.Controls.Add(Me.CmbSucursal)
         Me.Panel10.Controls.Add(Me.Label3)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel10.Location = New System.Drawing.Point(3, 97)
+        Me.Panel10.Location = New System.Drawing.Point(3, 74)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(734, 32)
+        Me.Panel10.Size = New System.Drawing.Size(641, 24)
         Me.Panel10.TabIndex = 2
         '
         'CmbSucursal
         '
         Me.CmbSucursal.Dock = System.Windows.Forms.DockStyle.Left
         Me.CmbSucursal.FormattingEnabled = True
-        Me.CmbSucursal.Location = New System.Drawing.Point(109, 0)
+        Me.CmbSucursal.Location = New System.Drawing.Point(95, 0)
+        Me.CmbSucursal.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CmbSucursal.Name = "CmbSucursal"
-        Me.CmbSucursal.Size = New System.Drawing.Size(218, 28)
+        Me.CmbSucursal.Size = New System.Drawing.Size(191, 23)
         Me.CmbSucursal.TabIndex = 2
         '
         'Label3
@@ -219,7 +233,7 @@ Partial Class Almacen
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(0, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(109, 32)
+        Me.Label3.Size = New System.Drawing.Size(95, 24)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Sucursal"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -230,9 +244,10 @@ Partial Class Almacen
         Me.Panel9.Controls.Add(Me.TxtDescripcion)
         Me.Panel9.Controls.Add(Me.Label2)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel9.Location = New System.Drawing.Point(3, 60)
+        Me.Panel9.Location = New System.Drawing.Point(3, 46)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(734, 37)
+        Me.Panel9.Size = New System.Drawing.Size(641, 28)
         Me.Panel9.TabIndex = 1
         '
         'BtnSiguiente
@@ -242,9 +257,10 @@ Partial Class Almacen
         Me.BtnSiguiente.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnSiguiente.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnSiguiente.ForeColor = System.Drawing.Color.White
-        Me.BtnSiguiente.Location = New System.Drawing.Point(627, 0)
+        Me.BtnSiguiente.Location = New System.Drawing.Point(547, 0)
+        Me.BtnSiguiente.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnSiguiente.Name = "BtnSiguiente"
-        Me.BtnSiguiente.Size = New System.Drawing.Size(107, 37)
+        Me.BtnSiguiente.Size = New System.Drawing.Size(94, 28)
         Me.BtnSiguiente.TabIndex = 6
         Me.BtnSiguiente.Text = "Siguiente"
         Me.BtnSiguiente.UseVisualStyleBackColor = False
@@ -253,9 +269,10 @@ Partial Class Almacen
         '
         Me.TxtDescripcion.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtDescripcion.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtDescripcion.Location = New System.Drawing.Point(109, 0)
+        Me.TxtDescripcion.Location = New System.Drawing.Point(95, 0)
+        Me.TxtDescripcion.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TxtDescripcion.Name = "TxtDescripcion"
-        Me.TxtDescripcion.Size = New System.Drawing.Size(218, 34)
+        Me.TxtDescripcion.Size = New System.Drawing.Size(191, 29)
         Me.TxtDescripcion.TabIndex = 1
         '
         'Label2
@@ -265,7 +282,7 @@ Partial Class Almacen
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(109, 37)
+        Me.Label2.Size = New System.Drawing.Size(95, 28)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Descripcion"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -276,9 +293,10 @@ Partial Class Almacen
         Me.Panel8.Controls.Add(Me.TxtIdAlmacen)
         Me.Panel8.Controls.Add(Me.Label1)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel8.Location = New System.Drawing.Point(3, 23)
+        Me.Panel8.Location = New System.Drawing.Point(3, 18)
+        Me.Panel8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(734, 37)
+        Me.Panel8.Size = New System.Drawing.Size(641, 28)
         Me.Panel8.TabIndex = 0
         '
         'BtnGuardarAlmacen
@@ -288,9 +306,10 @@ Partial Class Almacen
         Me.BtnGuardarAlmacen.Dock = System.Windows.Forms.DockStyle.Right
         Me.BtnGuardarAlmacen.Font = New System.Drawing.Font("Britannic Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnGuardarAlmacen.ForeColor = System.Drawing.Color.White
-        Me.BtnGuardarAlmacen.Location = New System.Drawing.Point(627, 0)
+        Me.BtnGuardarAlmacen.Location = New System.Drawing.Point(547, 0)
+        Me.BtnGuardarAlmacen.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnGuardarAlmacen.Name = "BtnGuardarAlmacen"
-        Me.BtnGuardarAlmacen.Size = New System.Drawing.Size(107, 37)
+        Me.BtnGuardarAlmacen.Size = New System.Drawing.Size(94, 28)
         Me.BtnGuardarAlmacen.TabIndex = 2
         Me.BtnGuardarAlmacen.Text = "Guardar"
         Me.BtnGuardarAlmacen.UseVisualStyleBackColor = False
@@ -299,9 +318,10 @@ Partial Class Almacen
         '
         Me.TxtIdAlmacen.Dock = System.Windows.Forms.DockStyle.Left
         Me.TxtIdAlmacen.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TxtIdAlmacen.Location = New System.Drawing.Point(109, 0)
+        Me.TxtIdAlmacen.Location = New System.Drawing.Point(95, 0)
+        Me.TxtIdAlmacen.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TxtIdAlmacen.Name = "TxtIdAlmacen"
-        Me.TxtIdAlmacen.Size = New System.Drawing.Size(218, 34)
+        Me.TxtIdAlmacen.Size = New System.Drawing.Size(191, 29)
         Me.TxtIdAlmacen.TabIndex = 1
         Me.TxtIdAlmacen.Visible = False
         '
@@ -312,7 +332,7 @@ Partial Class Almacen
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(91, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(109, 37)
+        Me.Label1.Size = New System.Drawing.Size(95, 28)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "IdAlmacen"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -321,32 +341,35 @@ Partial Class Almacen
         '
         Me.Panel12.Controls.Add(Me.Panel14)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel12.Location = New System.Drawing.Point(11, 214)
+        Me.Panel12.Location = New System.Drawing.Point(10, 161)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(740, 226)
+        Me.Panel12.Size = New System.Drawing.Size(647, 170)
         Me.Panel12.TabIndex = 10
         '
         'Panel14
         '
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel14.Location = New System.Drawing.Point(0, 0)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(740, 10)
+        Me.Panel14.Size = New System.Drawing.Size(647, 8)
         Me.Panel14.TabIndex = 3
         '
         'Panel1
         '
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(761, 10)
+        Me.Panel1.Size = New System.Drawing.Size(666, 8)
         Me.Panel1.TabIndex = 2
         '
         'Almacen
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(761, 459)
+        Me.ClientSize = New System.Drawing.Size(666, 344)
         Me.Controls.Add(Me.Panel12)
         Me.Controls.Add(Me.PnlAgregarAlmacen)
         Me.Controls.Add(Me.Panel6)
@@ -355,6 +378,7 @@ Partial Class Almacen
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
         Me.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Almacen"
         Me.Text = "Almacen"
         Me.Panel6.ResumeLayout(False)
